@@ -728,12 +728,12 @@ MonoBehaviour:
   - {r: 0.91540956, g: 0, b: 1, a: 1}
   - {r: 1, g: 0.9972119, b: 0, a: 1}
   rarityFrame:
-  - {fileID: 21300000, guid: d91ba0eca741d41b495f0eec1faf01fb, type: 3}
-  - {fileID: 21300000, guid: ab73aeaab0eca4169a47a35ca5925032, type: 3}
-  - {fileID: 21300000, guid: a7537f84fe9eb4907b48e33017c16bcf, type: 3}
-  - {fileID: 21300000, guid: 55e63f6ee1fce43048e80c343ec7905e, type: 3}
-  - {fileID: 21300000, guid: a8fc5350bc10240f1b2474c400ecbf30, type: 3}
-  - {fileID: 21300000, guid: 1bbefa5656a184f47bdf83a81aaefdb9, type: 3}
+  - {fileID: 21300000, guid: f6b95118fd4b546068cb4278c5f9f7e1, type: 3}
+  - {fileID: 21300000, guid: 820b76ca6519e49919cfa2a2bc3b08c0, type: 3}
+  - {fileID: 21300000, guid: 25d61237daa0245918100868f0cb22a2, type: 3}
+  - {fileID: 21300000, guid: e21b289a1b7e5402c889f944f556c5a4, type: 3}
+  - {fileID: 21300000, guid: 928bdd168e13441c28d398015f51fc67, type: 3}
+  - {fileID: 21300000, guid: 2ae82429eb1414f74901cd3c26904cd6, type: 3}
   maxLevel: 4
   enhancementMaxLevel: 100
   testQuantity: 0

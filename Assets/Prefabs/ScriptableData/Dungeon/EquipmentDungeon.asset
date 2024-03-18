@@ -23,6 +23,6 @@ MonoBehaviour:
   <goalKillCount>k__BackingField: 1
   <baseEarnPerOne>k__BackingField: 1000
   <increaceEarn>k__BackingField: 50
-  <dungeonImage>k__BackingField: {fileID: 21300000, guid: 1877d7a1b58ba4b29afa91d94afbcec2, type: 3}
+  <dungeonImage>k__BackingField: {fileID: 21300000, guid: 51eba61a448584dd19f8200718f8b5c7, type: 3}
   <description>k__BackingField: "\uB300\uB7C9\uC758 \uAC15\uD654\uC11D\uC744 \uC5BB\uC744
     \uC218 \uC788\uC2B5\uB2C8\uB2E4."
