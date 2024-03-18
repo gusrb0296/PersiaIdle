@@ -9,15 +9,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
+  m_Script: {fileID: 11500000, guid: 4838332ba5e234b44bc2ccb90aac376d, type: 3}
   m_Name: StatUpgradeFixedInfo 6
   m_EditorClassIdentifier: Assembly-CSharp::StatUpgradeFixedInfo
-  title: 
-  maxLevel: 0
-  statusType: 0
-  upgradePerLevelInt: 0
+  title: "\uCE58\uBA85\uD0C0 \uC99D\uD3ED \uC99D\uAC00"
+  maxLevel: 500
+  statusType: 6
+  upgradePerLevelInt: 5
   upgradePerLevelFloat: 0
   currencyType: 0
-  baseCost: 0
-  increaseCostPerLevel: 0
-  image: {fileID: 0}
+  baseCost: 1000
+  increaseCostPerLevel: 5
+  image: {fileID: 21300000, guid: 58e3171d8c32145fc9e8812420ddcb54, type: 3}

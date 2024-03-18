@@ -16,7 +16,7 @@ MonoBehaviour:
   goalKillCount: 30
   bossTimeLimit: 30
   maxSpawn: 10
-  mapPrefab: {fileID: 1132958252977268978, guid: d9ba3e261784243cc87fdebfa2eb6e5d, type: 3}
+  mapPrefab: {fileID: 6468416041720651596, guid: 7e93d00a324364674a0cbeed022e64dd, type: 3}
   bossName: "\uCF00\uB974\uBCA0\uB85C\uC2A4"
   bossDescription: "\uC9C0\uC625\uC758 \uD30C\uC218\uACAC"
   bossMonsterBaseStatus:
@@ -86,11 +86,11 @@ MonoBehaviour:
   - <rewardType>k__BackingField: 9
     <baseRewardAmount>k__BackingField: 10
     <increasePerLevel>k__BackingField: 10
-    <level>k__BackingField: 6
+    <level>k__BackingField: 1
   - <rewardType>k__BackingField: 0
     <baseRewardAmount>k__BackingField: 100
     <increasePerLevel>k__BackingField: 100
-    <level>k__BackingField: 6
+    <level>k__BackingField: 1
   basicMonsterSpawnPosition:
   - {x: -2.05, y: 2.85, z: 0}
   - {x: -2.24, y: -0.23, z: 0}
