@@ -1,7 +1,7 @@
 using UnityEngine;
-using Firebase;
-using Firebase.Extensions;
-using Firebase.Analytics;
+// using Firebase;
+// using Firebase.Extensions;
+// using Firebase.Analytics;
 
 public class DeviceIdChecking : MonoBehaviour
 {
@@ -20,17 +20,17 @@ public class DeviceIdChecking : MonoBehaviour
         string currentDeviceId = SystemInfo.deviceUniqueIdentifier;
 
         // 테스트 기기인지 체크
-        if (IsExcludedDevice(currentDeviceId))
-        {
-            // Firebase 초기화 이벤트 로그 호출 막기
-            FirebaseApp.CheckAndFixDependenciesAsync().ContinueWithOnMainThread(task => {
-                FirebaseApp app = FirebaseApp.DefaultInstance;
-                // Firebase Analytics를 사용하지 않도록 설정
-                FirebaseAnalytics.SetAnalyticsCollectionEnabled(false);
-            });
+        // if (IsExcludedDevice(currentDeviceId))
+        // {
+        //     // Firebase 초기화 이벤트 로그 호출 막기
+        //     FirebaseApp.CheckAndFixDependenciesAsync().ContinueWithOnMainThread(task => {
+        //         FirebaseApp app = FirebaseApp.DefaultInstance;
+        //         // Firebase Analytics를 사용하지 않도록 설정
+        //         FirebaseAnalytics.SetAnalyticsCollectionEnabled(false);
+        //     });
 
-            Debug.Log("테스트 기기입니다.");
-        }
+        //     Debug.Log("테스트 기기입니다.");
+        // }
     }
 
     // 특정 고유 ID를 가진 기기인지 확인
