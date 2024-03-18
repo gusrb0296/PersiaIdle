@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36bdb776d04774e3f9cc3d1be3f9a5e2, type: 3}
+  m_Name: PassiveSkillFixedInfo 1
+  m_EditorClassIdentifier: 
+  skillName: "\uAD11\uD3ED\uD654"
+  iconIndex: 2

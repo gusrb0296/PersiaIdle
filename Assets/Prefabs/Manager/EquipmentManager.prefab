@@ -1,0 +1,739 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8387562230308916041
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8441242282119830136}
+  - component: {fileID: 5296958803280453163}
+  m_Layer: 0
+  m_Name: EquipmentManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8441242282119830136
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8387562230308916041}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5296958803280453163
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8387562230308916041}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c8711f89dc1a4e24b6bc233c3bdcc4f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  weapons:
+  - equipName: Weapon_Common_1
+    quantity: 0
+    level: 1
+    type: 0
+    rarity: 0
+    enhancementLevel: 1
+    baseEquippedEffect: 10
+    baseOwnedEffect: 5
+    basicAwakenEffect: 100
+    isAwaken: 0
+    myColor: {r: 1, g: 1, b: 1, a: 1}
+    baseEnhanceStoneRequired: 100
+    baseEnhanceStoneIncrease: 50
+  - equipName: Weapon_Common_2
+    quantity: 0
+    level: 2
+    type: 0
+    rarity: 0
+    enhancementLevel: 1
+    baseEquippedEffect: 20
+    baseOwnedEffect: 10
+    basicAwakenEffect: 200
+    isAwaken: 0
+    myColor: {r: 1, g: 1, b: 1, a: 1}
+    baseEnhanceStoneRequired: 200
+    baseEnhanceStoneIncrease: 100
+  - equipName: Weapon_Common_3
+    quantity: 0
+    level: 3
+    type: 0
+    rarity: 0
+    enhancementLevel: 1
+    baseEquippedEffect: 30
+    baseOwnedEffect: 15
+    basicAwakenEffect: 300
+    isAwaken: 0
+    myColor: {r: 1, g: 1, b: 1, a: 1}
+    baseEnhanceStoneRequired: 300
+    baseEnhanceStoneIncrease: 150
+  - equipName: Weapon_Common_4
+    quantity: 0
+    level: 4
+    type: 0
+    rarity: 0
+    enhancementLevel: 1
+    baseEquippedEffect: 40
+    baseOwnedEffect: 20
+    basicAwakenEffect: 400
+    isAwaken: 0
+    myColor: {r: 1, g: 1, b: 1, a: 1}
+    baseEnhanceStoneRequired: 400
+    baseEnhanceStoneIncrease: 200
+  - equipName: Weapon_Uncommon_1
+    quantity: 0
+    level: 1
+    type: 0
+    rarity: 1
+    enhancementLevel: 1
+    baseEquippedEffect: 100
+    baseOwnedEffect: 50
+    basicAwakenEffect: 500
+    isAwaken: 0
+    myColor: {r: 0.001004219, g: 0.3372549, b: 1, a: 1}
+    baseEnhanceStoneRequired: 500
+    baseEnhanceStoneIncrease: 250
+  - equipName: Weapon_Uncommon_2
+    quantity: 0
+    level: 2
+    type: 0
+    rarity: 1
+    enhancementLevel: 1
+    baseEquippedEffect: 200
+    baseOwnedEffect: 100
+    basicAwakenEffect: 600
+    isAwaken: 0
+    myColor: {r: 0.001004219, g: 0.3372549, b: 1, a: 1}
+    baseEnhanceStoneRequired: 600
+    baseEnhanceStoneIncrease: 300
+  - equipName: Weapon_Uncommon_3
+    quantity: 0
+    level: 3
+    type: 0
+    rarity: 1
+    enhancementLevel: 1
+    baseEquippedEffect: 300
+    baseOwnedEffect: 150
+    basicAwakenEffect: 700
+    isAwaken: 0
+    myColor: {r: 0.001004219, g: 0.3372549, b: 1, a: 1}
+    baseEnhanceStoneRequired: 700
+    baseEnhanceStoneIncrease: 350
+  - equipName: Weapon_Uncommon_4
+    quantity: 0
+    level: 4
+    type: 0
+    rarity: 1
+    enhancementLevel: 1
+    baseEquippedEffect: 400
+    baseOwnedEffect: 200
+    basicAwakenEffect: 800
+    isAwaken: 0
+    myColor: {r: 0.001004219, g: 0.3372549, b: 1, a: 1}
+    baseEnhanceStoneRequired: 800
+    baseEnhanceStoneIncrease: 400
+  - equipName: Weapon_Rare_1
+    quantity: 0
+    level: 1
+    type: 0
+    rarity: 2
+    enhancementLevel: 1
+    baseEquippedEffect: 1000
+    baseOwnedEffect: 500
+    basicAwakenEffect: 900
+    isAwaken: 0
+    myColor: {r: 0.07539296, g: 1, b: 0, a: 1}
+    baseEnhanceStoneRequired: 900
+    baseEnhanceStoneIncrease: 450
+  - equipName: Weapon_Rare_2
+    quantity: 0
+    level: 2
+    type: 0
+    rarity: 2
+    enhancementLevel: 1
+    baseEquippedEffect: 2000
+    baseOwnedEffect: 1000
+    basicAwakenEffect: 1000
+    isAwaken: 0
+    myColor: {r: 0.07539296, g: 1, b: 0, a: 1}
+    baseEnhanceStoneRequired: 1000
+    baseEnhanceStoneIncrease: 500
+  - equipName: Weapon_Rare_3
+    quantity: 0
+    level: 3
+    type: 0
+    rarity: 2
+    enhancementLevel: 1
+    baseEquippedEffect: 3000
+    baseOwnedEffect: 1500
+    basicAwakenEffect: 1100
+    isAwaken: 0
+    myColor: {r: 0.07539296, g: 1, b: 0, a: 1}
+    baseEnhanceStoneRequired: 1100
+    baseEnhanceStoneIncrease: 550
+  - equipName: Weapon_Rare_4
+    quantity: 0
+    level: 4
+    type: 0
+    rarity: 2
+    enhancementLevel: 1
+    baseEquippedEffect: 4000
+    baseOwnedEffect: 2000
+    basicAwakenEffect: 1200
+    isAwaken: 0
+    myColor: {r: 0.07539296, g: 1, b: 0, a: 1}
+    baseEnhanceStoneRequired: 1200
+    baseEnhanceStoneIncrease: 600
+  - equipName: Weapon_Epic_1
+    quantity: 0
+    level: 1
+    type: 0
+    rarity: 3
+    enhancementLevel: 1
+    baseEquippedEffect: 10000
+    baseOwnedEffect: 5000
+    basicAwakenEffect: 1300
+    isAwaken: 0
+    myColor: {r: 1, g: 0, b: 0, a: 1}
+    baseEnhanceStoneRequired: 1300
+    baseEnhanceStoneIncrease: 650
+  - equipName: Weapon_Epic_2
+    quantity: 0
+    level: 2
+    type: 0
+    rarity: 3
+    enhancementLevel: 1
+    baseEquippedEffect: 20000
+    baseOwnedEffect: 10000
+    basicAwakenEffect: 1400
+    isAwaken: 0
+    myColor: {r: 1, g: 0, b: 0, a: 1}
+    baseEnhanceStoneRequired: 1400
+    baseEnhanceStoneIncrease: 700
+  - equipName: Weapon_Epic_3
+    quantity: 0
+    level: 3
+    type: 0
+    rarity: 3
+    enhancementLevel: 1
+    baseEquippedEffect: 30000
+    baseOwnedEffect: 15000
+    basicAwakenEffect: 1500
+    isAwaken: 0
+    myColor: {r: 1, g: 0, b: 0, a: 1}
+    baseEnhanceStoneRequired: 1500
+    baseEnhanceStoneIncrease: 750
+  - equipName: Weapon_Epic_4
+    quantity: 0
+    level: 4
+    type: 0
+    rarity: 3
+    enhancementLevel: 1
+    baseEquippedEffect: 40000
+    baseOwnedEffect: 20000
+    basicAwakenEffect: 1600
+    isAwaken: 0
+    myColor: {r: 1, g: 0, b: 0, a: 1}
+    baseEnhanceStoneRequired: 1600
+    baseEnhanceStoneIncrease: 800
+  - equipName: Weapon_Legendary_1
+    quantity: 0
+    level: 1
+    type: 0
+    rarity: 4
+    enhancementLevel: 1
+    baseEquippedEffect: 100000
+    baseOwnedEffect: 50000
+    basicAwakenEffect: 1700
+    isAwaken: 0
+    myColor: {r: 0.91540956, g: 0, b: 1, a: 1}
+    baseEnhanceStoneRequired: 1700
+    baseEnhanceStoneIncrease: 850
+  - equipName: Weapon_Legendary_2
+    quantity: 0
+    level: 2
+    type: 0
+    rarity: 4
+    enhancementLevel: 1
+    baseEquippedEffect: 200000
+    baseOwnedEffect: 100000
+    basicAwakenEffect: 1800
+    isAwaken: 0
+    myColor: {r: 0.91540956, g: 0, b: 1, a: 1}
+    baseEnhanceStoneRequired: 1800
+    baseEnhanceStoneIncrease: 900
+  - equipName: Weapon_Legendary_3
+    quantity: 0
+    level: 3
+    type: 0
+    rarity: 4
+    enhancementLevel: 1
+    baseEquippedEffect: 300000
+    baseOwnedEffect: 150000
+    basicAwakenEffect: 1900
+    isAwaken: 0
+    myColor: {r: 0.91540956, g: 0, b: 1, a: 1}
+    baseEnhanceStoneRequired: 1900
+    baseEnhanceStoneIncrease: 950
+  - equipName: Weapon_Legendary_4
+    quantity: 0
+    level: 4
+    type: 0
+    rarity: 4
+    enhancementLevel: 1
+    baseEquippedEffect: 400000
+    baseOwnedEffect: 200000
+    basicAwakenEffect: 2000
+    isAwaken: 0
+    myColor: {r: 0.91540956, g: 0, b: 1, a: 1}
+    baseEnhanceStoneRequired: 2000
+    baseEnhanceStoneIncrease: 1000
+  - equipName: Weapon_Mythology_1
+    quantity: 0
+    level: 1
+    type: 0
+    rarity: 5
+    enhancementLevel: 1
+    baseEquippedEffect: 1000000
+    baseOwnedEffect: 500000
+    basicAwakenEffect: 2100
+    isAwaken: 0
+    myColor: {r: 1, g: 0.9972119, b: 0, a: 1}
+    baseEnhanceStoneRequired: 2100
+    baseEnhanceStoneIncrease: 1050
+  - equipName: Weapon_Mythology_2
+    quantity: 0
+    level: 2
+    type: 0
+    rarity: 5
+    enhancementLevel: 1
+    baseEquippedEffect: 2000000
+    baseOwnedEffect: 1000000
+    basicAwakenEffect: 2200
+    isAwaken: 0
+    myColor: {r: 1, g: 0.9972119, b: 0, a: 1}
+    baseEnhanceStoneRequired: 2200
+    baseEnhanceStoneIncrease: 1100
+  - equipName: Weapon_Mythology_3
+    quantity: 0
+    level: 3
+    type: 0
+    rarity: 5
+    enhancementLevel: 1
+    baseEquippedEffect: 3000000
+    baseOwnedEffect: 1500000
+    basicAwakenEffect: 2300
+    isAwaken: 0
+    myColor: {r: 1, g: 0.9972119, b: 0, a: 1}
+    baseEnhanceStoneRequired: 2300
+    baseEnhanceStoneIncrease: 1150
+  - equipName: Weapon_Mythology_4
+    quantity: 0
+    level: 4
+    type: 0
+    rarity: 5
+    enhancementLevel: 1
+    baseEquippedEffect: 4000000
+    baseOwnedEffect: 2000000
+    basicAwakenEffect: 2400
+    isAwaken: 0
+    myColor: {r: 1, g: 0.9972119, b: 0, a: 1}
+    baseEnhanceStoneRequired: 2400
+    baseEnhanceStoneIncrease: 1200
+  armors:
+  - equipName: Armor_Common_1
+    quantity: 0
+    level: 1
+    type: 1
+    rarity: 0
+    enhancementLevel: 1
+    baseEquippedEffect: 10
+    baseOwnedEffect: 5
+    basicAwakenEffect: 100
+    isAwaken: 0
+    myColor: {r: 1, g: 1, b: 1, a: 1}
+    baseEnhanceStoneRequired: 100
+    baseEnhanceStoneIncrease: 50
+  - equipName: Armor_Common_2
+    quantity: 0
+    level: 2
+    type: 1
+    rarity: 0
+    enhancementLevel: 1
+    baseEquippedEffect: 20
+    baseOwnedEffect: 10
+    basicAwakenEffect: 200
+    isAwaken: 0
+    myColor: {r: 1, g: 1, b: 1, a: 1}
+    baseEnhanceStoneRequired: 200
+    baseEnhanceStoneIncrease: 100
+  - equipName: Armor_Common_3
+    quantity: 0
+    level: 3
+    type: 1
+    rarity: 0
+    enhancementLevel: 1
+    baseEquippedEffect: 30
+    baseOwnedEffect: 15
+    basicAwakenEffect: 300
+    isAwaken: 0
+    myColor: {r: 1, g: 1, b: 1, a: 1}
+    baseEnhanceStoneRequired: 300
+    baseEnhanceStoneIncrease: 150
+  - equipName: Armor_Common_4
+    quantity: 0
+    level: 4
+    type: 1
+    rarity: 0
+    enhancementLevel: 1
+    baseEquippedEffect: 40
+    baseOwnedEffect: 20
+    basicAwakenEffect: 400
+    isAwaken: 0
+    myColor: {r: 1, g: 1, b: 1, a: 1}
+    baseEnhanceStoneRequired: 400
+    baseEnhanceStoneIncrease: 200
+  - equipName: Armor_Uncommon_1
+    quantity: 0
+    level: 1
+    type: 1
+    rarity: 1
+    enhancementLevel: 1
+    baseEquippedEffect: 100
+    baseOwnedEffect: 50
+    basicAwakenEffect: 500
+    isAwaken: 0
+    myColor: {r: 0.001004219, g: 0.3372549, b: 1, a: 1}
+    baseEnhanceStoneRequired: 500
+    baseEnhanceStoneIncrease: 250
+  - equipName: Armor_Uncommon_2
+    quantity: 0
+    level: 2
+    type: 1
+    rarity: 1
+    enhancementLevel: 1
+    baseEquippedEffect: 200
+    baseOwnedEffect: 100
+    basicAwakenEffect: 600
+    isAwaken: 0
+    myColor: {r: 0.001004219, g: 0.3372549, b: 1, a: 1}
+    baseEnhanceStoneRequired: 600
+    baseEnhanceStoneIncrease: 300
+  - equipName: Armor_Uncommon_3
+    quantity: 0
+    level: 3
+    type: 1
+    rarity: 1
+    enhancementLevel: 1
+    baseEquippedEffect: 300
+    baseOwnedEffect: 150
+    basicAwakenEffect: 700
+    isAwaken: 0
+    myColor: {r: 0.001004219, g: 0.3372549, b: 1, a: 1}
+    baseEnhanceStoneRequired: 700
+    baseEnhanceStoneIncrease: 350
+  - equipName: Armor_Uncommon_4
+    quantity: 0
+    level: 4
+    type: 1
+    rarity: 1
+    enhancementLevel: 1
+    baseEquippedEffect: 400
+    baseOwnedEffect: 200
+    basicAwakenEffect: 800
+    isAwaken: 0
+    myColor: {r: 0.001004219, g: 0.3372549, b: 1, a: 1}
+    baseEnhanceStoneRequired: 800
+    baseEnhanceStoneIncrease: 400
+  - equipName: Armor_Rare_1
+    quantity: 0
+    level: 1
+    type: 1
+    rarity: 2
+    enhancementLevel: 1
+    baseEquippedEffect: 1000
+    baseOwnedEffect: 500
+    basicAwakenEffect: 900
+    isAwaken: 0
+    myColor: {r: 0.07539296, g: 1, b: 0, a: 1}
+    baseEnhanceStoneRequired: 900
+    baseEnhanceStoneIncrease: 450
+  - equipName: Armor_Rare_2
+    quantity: 0
+    level: 2
+    type: 1
+    rarity: 2
+    enhancementLevel: 1
+    baseEquippedEffect: 2000
+    baseOwnedEffect: 1000
+    basicAwakenEffect: 1000
+    isAwaken: 0
+    myColor: {r: 0.07539296, g: 1, b: 0, a: 1}
+    baseEnhanceStoneRequired: 1000
+    baseEnhanceStoneIncrease: 500
+  - equipName: Armor_Rare_3
+    quantity: 0
+    level: 3
+    type: 1
+    rarity: 2
+    enhancementLevel: 1
+    baseEquippedEffect: 3000
+    baseOwnedEffect: 1500
+    basicAwakenEffect: 1100
+    isAwaken: 0
+    myColor: {r: 0.07539296, g: 1, b: 0, a: 1}
+    baseEnhanceStoneRequired: 1100
+    baseEnhanceStoneIncrease: 550
+  - equipName: Armor_Rare_4
+    quantity: 0
+    level: 4
+    type: 1
+    rarity: 2
+    enhancementLevel: 1
+    baseEquippedEffect: 4000
+    baseOwnedEffect: 2000
+    basicAwakenEffect: 1200
+    isAwaken: 0
+    myColor: {r: 0.07539296, g: 1, b: 0, a: 1}
+    baseEnhanceStoneRequired: 1200
+    baseEnhanceStoneIncrease: 600
+  - equipName: Armor_Epic_1
+    quantity: 0
+    level: 1
+    type: 1
+    rarity: 3
+    enhancementLevel: 1
+    baseEquippedEffect: 10000
+    baseOwnedEffect: 5000
+    basicAwakenEffect: 1300
+    isAwaken: 0
+    myColor: {r: 1, g: 0, b: 0, a: 1}
+    baseEnhanceStoneRequired: 1300
+    baseEnhanceStoneIncrease: 650
+  - equipName: Armor_Epic_2
+    quantity: 0
+    level: 2
+    type: 1
+    rarity: 3
+    enhancementLevel: 1
+    baseEquippedEffect: 20000
+    baseOwnedEffect: 10000
+    basicAwakenEffect: 1400
+    isAwaken: 0
+    myColor: {r: 1, g: 0, b: 0, a: 1}
+    baseEnhanceStoneRequired: 1400
+    baseEnhanceStoneIncrease: 700
+  - equipName: Armor_Epic_3
+    quantity: 0
+    level: 3
+    type: 1
+    rarity: 3
+    enhancementLevel: 1
+    baseEquippedEffect: 30000
+    baseOwnedEffect: 15000
+    basicAwakenEffect: 1500
+    isAwaken: 0
+    myColor: {r: 1, g: 0, b: 0, a: 1}
+    baseEnhanceStoneRequired: 1500
+    baseEnhanceStoneIncrease: 750
+  - equipName: Armor_Epic_4
+    quantity: 0
+    level: 4
+    type: 1
+    rarity: 3
+    enhancementLevel: 1
+    baseEquippedEffect: 40000
+    baseOwnedEffect: 20000
+    basicAwakenEffect: 1600
+    isAwaken: 0
+    myColor: {r: 1, g: 0, b: 0, a: 1}
+    baseEnhanceStoneRequired: 1600
+    baseEnhanceStoneIncrease: 800
+  - equipName: Armor_Legendary_1
+    quantity: 0
+    level: 1
+    type: 1
+    rarity: 4
+    enhancementLevel: 1
+    baseEquippedEffect: 100000
+    baseOwnedEffect: 50000
+    basicAwakenEffect: 1700
+    isAwaken: 0
+    myColor: {r: 0.91540956, g: 0, b: 1, a: 1}
+    baseEnhanceStoneRequired: 1700
+    baseEnhanceStoneIncrease: 850
+  - equipName: Armor_Legendary_2
+    quantity: 0
+    level: 2
+    type: 1
+    rarity: 4
+    enhancementLevel: 1
+    baseEquippedEffect: 200000
+    baseOwnedEffect: 100000
+    basicAwakenEffect: 1800
+    isAwaken: 0
+    myColor: {r: 0.91540956, g: 0, b: 1, a: 1}
+    baseEnhanceStoneRequired: 1800
+    baseEnhanceStoneIncrease: 900
+  - equipName: Armor_Legendary_3
+    quantity: 0
+    level: 3
+    type: 1
+    rarity: 4
+    enhancementLevel: 1
+    baseEquippedEffect: 300000
+    baseOwnedEffect: 150000
+    basicAwakenEffect: 1900
+    isAwaken: 0
+    myColor: {r: 0.91540956, g: 0, b: 1, a: 1}
+    baseEnhanceStoneRequired: 1900
+    baseEnhanceStoneIncrease: 950
+  - equipName: Armor_Legendary_4
+    quantity: 0
+    level: 4
+    type: 1
+    rarity: 4
+    enhancementLevel: 1
+    baseEquippedEffect: 400000
+    baseOwnedEffect: 200000
+    basicAwakenEffect: 2000
+    isAwaken: 0
+    myColor: {r: 0.91540956, g: 0, b: 1, a: 1}
+    baseEnhanceStoneRequired: 2000
+    baseEnhanceStoneIncrease: 1000
+  - equipName: Armor_Mythology_1
+    quantity: 0
+    level: 1
+    type: 1
+    rarity: 5
+    enhancementLevel: 1
+    baseEquippedEffect: 1000000
+    baseOwnedEffect: 500000
+    basicAwakenEffect: 2100
+    isAwaken: 0
+    myColor: {r: 1, g: 0.9972119, b: 0, a: 1}
+    baseEnhanceStoneRequired: 2100
+    baseEnhanceStoneIncrease: 1050
+  - equipName: Armor_Mythology_2
+    quantity: 0
+    level: 2
+    type: 1
+    rarity: 5
+    enhancementLevel: 1
+    baseEquippedEffect: 2000000
+    baseOwnedEffect: 1000000
+    basicAwakenEffect: 2200
+    isAwaken: 0
+    myColor: {r: 1, g: 0.9972119, b: 0, a: 1}
+    baseEnhanceStoneRequired: 2200
+    baseEnhanceStoneIncrease: 1100
+  - equipName: Armor_Mythology_3
+    quantity: 0
+    level: 3
+    type: 1
+    rarity: 5
+    enhancementLevel: 1
+    baseEquippedEffect: 3000000
+    baseOwnedEffect: 1500000
+    basicAwakenEffect: 2300
+    isAwaken: 0
+    myColor: {r: 1, g: 0.9972119, b: 0, a: 1}
+    baseEnhanceStoneRequired: 2300
+    baseEnhanceStoneIncrease: 1150
+  - equipName: Armor_Mythology_4
+    quantity: 0
+    level: 4
+    type: 1
+    rarity: 5
+    enhancementLevel: 1
+    baseEquippedEffect: 4000000
+    baseOwnedEffect: 2000000
+    basicAwakenEffect: 2400
+    isAwaken: 0
+    myColor: {r: 1, g: 0.9972119, b: 0, a: 1}
+    baseEnhanceStoneRequired: 2400
+    baseEnhanceStoneIncrease: 1200
+  weaponImages:
+  - {fileID: 21300000, guid: 6d6d89c596fa3483480b3d24e7185a9f, type: 3}
+  - {fileID: 21300000, guid: ba9ef7cf0141342678bc8009acebf57b, type: 3}
+  - {fileID: 21300000, guid: 77a351e6ee8804e75b9db14362c39f39, type: 3}
+  - {fileID: 21300000, guid: 7350902c1fd204f1c96cf09ff0a812e0, type: 3}
+  - {fileID: 21300000, guid: fe8996450f6f74d31995eab0efa246ad, type: 3}
+  - {fileID: 21300000, guid: 61547bc4049c0441f8a282e778b27997, type: 3}
+  - {fileID: 21300000, guid: d35eb111afdd64c37b078df7cfdc8420, type: 3}
+  - {fileID: 21300000, guid: ef63e8e17f99942428b14c7a60f353aa, type: 3}
+  - {fileID: 21300000, guid: e082665ade1d946048ecab898fa6310b, type: 3}
+  - {fileID: 21300000, guid: b29bb83d866a2472ca4421191684f99e, type: 3}
+  - {fileID: 21300000, guid: 3bc5061a900634d84b3e9ede678f60ed, type: 3}
+  - {fileID: 21300000, guid: de0da546266f44004b2750ada5b69823, type: 3}
+  - {fileID: 21300000, guid: 7123dc0ec917e4d8d8eef9fa08009a7a, type: 3}
+  - {fileID: 21300000, guid: c870d8cbb2262405481c67ffa544947d, type: 3}
+  - {fileID: 21300000, guid: ed63cf9747db44178867f35911e1abf8, type: 3}
+  - {fileID: 21300000, guid: fdcc66a913aa7487ab81a7c64e74ba4e, type: 3}
+  - {fileID: 21300000, guid: 2a2cb36bcb7cc4128869c03679e56c2c, type: 3}
+  - {fileID: 21300000, guid: 036d1516bc0894e30b6c81d3db7e8329, type: 3}
+  - {fileID: 21300000, guid: 5c2ed9c867d154c8aa91cd69214d71de, type: 3}
+  - {fileID: 21300000, guid: a69f0f731afbd47ab83903b3c2f67d48, type: 3}
+  - {fileID: 21300000, guid: 595629abde3724f1dbc636c0d49f43cc, type: 3}
+  - {fileID: 21300000, guid: d42b6f4bff8e54b808e9765bf311b50e, type: 3}
+  - {fileID: 21300000, guid: 6a141803e94c64245813d65a47fda2f5, type: 3}
+  - {fileID: 21300000, guid: 830e8fa3a96d64119b0d4c5b0935eaba, type: 3}
+  armorImages:
+  - {fileID: 21300000, guid: 11888bf0772d44beb87ff0a0ef6a9cd9, type: 3}
+  - {fileID: 21300000, guid: 18893b334174145e8860b796a234df90, type: 3}
+  - {fileID: 21300000, guid: 6114f25a3493947658dc41bc81df0bf5, type: 3}
+  - {fileID: 21300000, guid: e76556ab3ffb848b8a050b5f941935bc, type: 3}
+  - {fileID: 21300000, guid: 505d2418b0bcf45249adf530ef4ac797, type: 3}
+  - {fileID: 21300000, guid: e1ffac9b9a60d4a2c9820dc82e29365d, type: 3}
+  - {fileID: 21300000, guid: 4442965621de744b7a7ba8edb13baac4, type: 3}
+  - {fileID: 21300000, guid: 19f25ade12c2d4286950d21160b52900, type: 3}
+  - {fileID: 21300000, guid: d5363e58e58f54d8582426b607a8f488, type: 3}
+  - {fileID: 21300000, guid: 49f431812e5684a379e0e6495ec5600f, type: 3}
+  - {fileID: 21300000, guid: 781a1aed7ab3b48dab9504879079ee82, type: 3}
+  - {fileID: 21300000, guid: 795768b03e08049b1b6559fa62fb6242, type: 3}
+  - {fileID: 21300000, guid: 433ec4685b197496f97bcdb8644bc11c, type: 3}
+  - {fileID: 21300000, guid: ad789a3b3106f4b6183ed735d9974768, type: 3}
+  - {fileID: 21300000, guid: a0f40d424e1764cd7833c2a3fcaa4507, type: 3}
+  - {fileID: 21300000, guid: 66b6d78f57ada44839d0112fca920de6, type: 3}
+  - {fileID: 21300000, guid: eb89b92d1155f410d94319d8b5767b7f, type: 3}
+  - {fileID: 21300000, guid: ab201c486ee3640f58b34f9182cffa85, type: 3}
+  - {fileID: 21300000, guid: 6fd34ba2ff8814d76bb8c071824a1e88, type: 3}
+  - {fileID: 21300000, guid: e6bb29ce5d1044253be921da96d0dab0, type: 3}
+  - {fileID: 21300000, guid: ad780636e61e84a57b7fc8314ed732ac, type: 3}
+  - {fileID: 21300000, guid: b9a16f0394e634a1db59da195b7c27a5, type: 3}
+  - {fileID: 21300000, guid: c9dc7d5557dea4b50b5052035717ab70, type: 3}
+  - {fileID: 21300000, guid: db322c847f1524e5fb78ab051642bf2e, type: 3}
+  rarityColors:
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 0.001004219, g: 0.3372549, b: 1, a: 1}
+  - {r: 0.07539296, g: 1, b: 0, a: 1}
+  - {r: 1, g: 0, b: 0, a: 1}
+  - {r: 0.91540956, g: 0, b: 1, a: 1}
+  - {r: 1, g: 0.9972119, b: 0, a: 1}
+  rarityFrame:
+  - {fileID: 21300000, guid: d91ba0eca741d41b495f0eec1faf01fb, type: 3}
+  - {fileID: 21300000, guid: ab73aeaab0eca4169a47a35ca5925032, type: 3}
+  - {fileID: 21300000, guid: a7537f84fe9eb4907b48e33017c16bcf, type: 3}
+  - {fileID: 21300000, guid: 55e63f6ee1fce43048e80c343ec7905e, type: 3}
+  - {fileID: 21300000, guid: a8fc5350bc10240f1b2474c400ecbf30, type: 3}
+  - {fileID: 21300000, guid: 1bbefa5656a184f47bdf83a81aaefdb9, type: 3}
+  maxLevel: 4
+  enhancementMaxLevel: 100
+  testQuantity: 0

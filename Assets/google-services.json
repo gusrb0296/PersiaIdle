@@ -1,0 +1,67 @@
+{
+  "project_info": {
+    "project_number": "717736012906",
+    "project_id": "dev-2-idle-rpg",
+    "storage_bucket": "dev-2-idle-rpg.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:717736012906:android:4a7324b21c88bb3f41ee13",
+        "android_client_info": {
+          "package_name": "com.teamsparta.DevDosa"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAb39kKYxiIjf0PMpZgDR9xaymkMNAUpk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:717736012906:android:249150a88670fe1741ee13",
+        "android_client_info": {
+          "package_name": "com.teamsparta.DevPersia"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAb39kKYxiIjf0PMpZgDR9xaymkMNAUpk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:717736012906:android:64cc007ed6abbef841ee13",
+        "android_client_info": {
+          "package_name": "com.teamsparta.DevSparta"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAb39kKYxiIjf0PMpZgDR9xaymkMNAUpk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

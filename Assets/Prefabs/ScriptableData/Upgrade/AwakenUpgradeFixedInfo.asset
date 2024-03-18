@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: AwakenUpgradeFixedInfo
+  m_EditorClassIdentifier: Assembly-CSharp::AwakenUpgradeFixedInfo
+  gemName: "\uBC88\uAC1C\uC758 \uBCF4\uC625"
+  title: "\uACF5\uACA9\uB825 \uC99D\uAC00"
+  maxLevel: 1000
+  statusType: 0
+  upgradePerLevelInt: 1
+  upgradePerLevelFloat: 0
+  currencyType: 3
+  baseCost: 100
+  increaseCostPerLevel: 10
+  image: {fileID: 21300000, guid: 843e118d94dcf4d2a888a65b3f268a6a, type: 3}

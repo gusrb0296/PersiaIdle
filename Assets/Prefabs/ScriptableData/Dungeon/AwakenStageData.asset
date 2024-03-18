@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4c5251a6a92740c3b37a56921f3f598, type: 3}
+  m_Name: AwakenStageData
+  m_EditorClassIdentifier: 
+  stageName: "\uAC01\uC131\uC11D \uB358\uC804"
+  goalKillCount: 1
+  bossTimeLimit: 60
+  maxSpawn: 1
+  mapPrefab: {fileID: 2960491864574443369, guid: 4568faa7e6a304dc7a79a5e98179e0c6, type: 3}
+  bossName: 
+  bossDescription: 
+  bossMonsterBaseStatus:
+    baseAttack: 0
+    baseHealth: 20000
+    baseDamageReduction: 0
+    baseMana: 0
+    baseManaRecovery: 0
+    baseCritChance: 0
+    baseCritDamage: 0
+    baseAttackSpeed: 0
+    baseMovementSpeed: 0
+  bossMonsterPerLevel:
+    baseAttack: 0
+    baseHealth: 20000
+    baseDamageReduction: 0
+    baseMana: 0
+    baseManaRecovery: 0
+    baseCritChance: 0
+    baseCritDamage: 0
+    baseAttackSpeed: 0
+    baseMovementSpeed: 0
+  bossMonsterPrefab: {fileID: 2840300716045801684, guid: 2af970302ec88406bab278a19cebb139, type: 3}
+  bossMonsterReward: []
+  bossSpawnPosition: {x: 0, y: 1, z: 0}
+  number20BossBonusStatus:
+    baseAttack: 0
+    baseHealth: 0
+    baseDamageReduction: 0
+    baseMana: 0
+    baseManaRecovery: 0
+    baseCritChance: 0
+    baseCritDamage: 0
+    baseAttackSpeed: 0
+    baseMovementSpeed: 0
+  basicMonstersBaseStatus: []
+  basicMonstersPerLevel: []
+  basicMonstersPrefab: []
+  basicMonstersReward: []
+  basicMonsterSpawnPosition:
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}

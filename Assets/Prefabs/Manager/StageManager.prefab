@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4915778712192127265
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7331041164442784272}
+  - component: {fileID: 3768068811294567844}
+  m_Layer: 0
+  m_Name: StageManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7331041164442784272
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4915778712192127265}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3768068811294567844
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4915778712192127265}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f711dfe630804811a0bc608b3434620, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clearPanelTime: 3
+  stageDatas:
+  - {fileID: 11400000, guid: b070c58e69e2143ed95c145b837cdbbd, type: 2}
+  - {fileID: 11400000, guid: 46f853de5920f4619a34b97bb660595f, type: 2}
+  - {fileID: 11400000, guid: fa7631e18eb4747e986b69f889309c4d, type: 2}
+  - {fileID: 11400000, guid: 7e98d3db50e3444ae9797b86d1ae8df9, type: 2}
+  goldDungeon: {fileID: 11400000, guid: 84f67387e5b694557b24f9bb5d93f064, type: 2}
+  awakenDungeon: {fileID: 11400000, guid: fd10649a7fd0d48a48a72f169c8db355, type: 2}
+  enhanceDungeon: {fileID: 11400000, guid: 831192f7e58cc4598ad217953cb8f322, type: 2}

@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1262048d0269c4f73874244e21f05d82, type: 3}
+  m_Name: SpecialActiveInfo
+  m_EditorClassIdentifier: 
+  skillName: "\uD2B9\uC218\uAE30"
+  iconIndex: 16
+  animType: 30
+  animParameter: Skill2
+  skillAnimTime: 0
+  attackType: 0
+  isFollowing: 0
+  isContinuous: 0
+  isRepeat: 1
+  attackDistance: 0
+  attackColliderInfos:
+  - type: 3
+    size: 0
+    knockback: 60
+    startTime: 0.1
+    duration: 1.9
+    offset: {x: 0, y: 0, z: 0}

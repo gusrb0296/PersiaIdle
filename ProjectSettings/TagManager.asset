@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Monster
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Obstacle
+  - DamageUI
+  - 
+  - 
+  - Player
+  - Monster
+  - Death
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Character
+    uniqueID: 1117622723
+    locked: 0
+  - name: DamageUI
+    uniqueID: 1630668475
+    locked: 0
+  - name: UI
+    uniqueID: 480424327
+    locked: 0

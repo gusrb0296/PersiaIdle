@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0c705a440d69477fa1be92cf6bdcf29, type: 3}
+  m_Name: AwakenDungeon
+  m_EditorClassIdentifier: 
+  rewardType: 3
+  invitationType: 7
+  dungeonSubName: "\uC78A\uD600\uC9C4 \uC220\uD0C4\uC758 \uBB34\uB364"
+  goalInstruction: "\uAC01\uC131\uC11D\uC744 \uBD80\uC218\uC138\uC694."
+  <dungeonType>k__BackingField: 1
+  <stageSO>k__BackingField: {fileID: 11400000, guid: 42a55550d50964cab9d73eb8561a5a7b, type: 2}
+  <dungeonLevel>k__BackingField: 1
+  <goalTime>k__BackingField: 60
+  <goalKillCount>k__BackingField: 1
+  <baseEarnPerOne>k__BackingField: 1000
+  <increaceEarn>k__BackingField: 50
+  <dungeonImage>k__BackingField: {fileID: 21300000, guid: fd85b67da7aee483db35d7175154c187, type: 3}
+  <description>k__BackingField: "\uB300\uB7C9\uC758 \uAC01\uC131\uC11D\uC744 \uC5BB\uC744
+    \uC218 \uC788\uC2B5\uB2C8\uB2E4."

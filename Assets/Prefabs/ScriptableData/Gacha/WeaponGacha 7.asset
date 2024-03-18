@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5bb0e7040a8aa4f5196d4d63bc4462a6, type: 3}
+  m_Name: WeaponGacha 7
+  m_EditorClassIdentifier: 
+  eachWeight:
+  - rarityWeight: 400
+    subWeight: 1e000000190000001900000014000000
+  - rarityWeight: 300
+    subWeight: 1e000000190000001900000014000000
+  - rarityWeight: 250
+    subWeight: 1e000000190000001900000014000000
+  - rarityWeight: 49
+    subWeight: 1e000000190000001900000014000000
+  - rarityWeight: 1
+    subWeight: 1e000000190000001900000014000000
+  - rarityWeight: 0
+    subWeight: 1e000000190000001900000014000000

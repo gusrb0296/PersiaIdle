@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &302804271959606256
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3073206883521350699}
+  - component: {fileID: 6270846157749691217}
+  m_Layer: 0
+  m_Name: PopMessageUIManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3073206883521350699
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 302804271959606256}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6270846157749691217
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 302804271959606256}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92e579839f5104237ae3ce3dffd5213a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damageCanvas: {fileID: 0}
+  damagePrefab: {fileID: 9248986155437130, guid: 4b030002557834861a44040100cfca14, type: 3}
+  damagePoolSize: 10
+  messageCanvas: {fileID: 0}
+  messagePrefab: {fileID: 9134774823400599761, guid: 94401d6e340c141ee8c6534c1d2a45bd, type: 3}
+  messagePoolSize: 5
+  movingUpTime: 1
+  fadeOutTime: 0.5
+  speed: 100
+  obtainMessageCanvas: {fileID: 0}
+  obtainMessagePrefab: {fileID: 7828011351556451898, guid: 26267c74369144570bf584ee6e19d003, type: 3}
+  obtainFadeOutTime: 0.2
+  obtainShowTime: 1
+  obtainMessagePoolSize: 4

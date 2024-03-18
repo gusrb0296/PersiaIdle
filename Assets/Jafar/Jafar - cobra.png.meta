@@ -1,0 +1,514 @@
+fileFormatVersion: 2
+guid: a66dd697a71424f05a6a55bf88dc0940
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 3DS - Epic Mickey Power of Illusion - Jafar_0
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 405
+        width: 101
+        height: 100
+      alignment: 9
+      pivot: {x: 0.55, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44423048fe7c34717b89ff08ff684b17
+      internalID: -844439753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Epic Mickey Power of Illusion - Jafar_1
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 305
+        width: 101
+        height: 99
+      alignment: 9
+      pivot: {x: 0.55, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c9ee1dac50f84b608f6fd1dbaa1caff
+      internalID: 1074093784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Epic Mickey Power of Illusion - Jafar_2
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 210
+        width: 101
+        height: 93
+      alignment: 9
+      pivot: {x: 0.56, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8625fd07f90604a429234bde4af7f6b0
+      internalID: -338360447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Epic Mickey Power of Illusion - Jafar_3
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 111
+        width: 103
+        height: 98
+      alignment: 9
+      pivot: {x: 0.55, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 675bb750f230740aba26a24587c93e6d
+      internalID: -1174433722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Epic Mickey Power of Illusion - Jafar_4
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 0
+        width: 103
+        height: 110
+      alignment: 9
+      pivot: {x: 0.55, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1f41440fc2e346c6884b26fb809a972
+      internalID: 430308344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Epic Mickey Power of Illusion - Jafar_5
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 829
+        width: 188
+        height: 165
+      alignment: 9
+      pivot: {x: 0.5611124, y: 0.4105824}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f3ed577e6a224091aded7ec57beb8cf
+      internalID: 119047730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Epic Mickey Power of Illusion - Jafar_6
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 829
+        width: 188
+        height: 165
+      alignment: 9
+      pivot: {x: 0.5442537, y: 0.4081813}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b50d43e154f64c8e993cecbaeb55678
+      internalID: 1755379898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Epic Mickey Power of Illusion - Jafar_7
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 663
+        width: 188
+        height: 165
+      alignment: 9
+      pivot: {x: 0.5590051, y: 0.41538456}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c158e1a0400754ef19da8650d6995e42
+      internalID: 822340072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Epic Mickey Power of Illusion - Jafar_8
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 663
+        width: 188
+        height: 165
+      alignment: 9
+      pivot: {x: 0.5484684, y: 0.4105824}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be2d04cc4381d4f7aa31e87a3f3043be
+      internalID: -261149886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Epic Mickey Power of Illusion - Jafar_9
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 498
+        width: 188
+        height: 165
+      alignment: 9
+      pivot: {x: 0.5547901, y: 0.40337914}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9acbb22aac1444fef93f401e4f4f2bb2
+      internalID: -157939672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Epic Mickey Power of Illusion - Jafar_10
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 896
+        width: 101
+        height: 97
+      alignment: 9
+      pivot: {x: 0.55, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 241a2532699d2470989d8414c3726e9b
+      internalID: 21127789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Epic Mickey Power of Illusion - Jafar_11
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 406
+        width: 75
+        height: 90
+      alignment: 9
+      pivot: {x: 0.39978436, y: 0.014847141}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b37883e791dc14e23b87703ec838fcaa
+      internalID: -126494731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Epic Mickey Power of Illusion - Jafar_12
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 315
+        width: 77
+        height: 89
+      alignment: 9
+      pivot: {x: 0.36815852, y: 0.024126858}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1da6ece043c7e4530afaa31927cce2d3
+      internalID: 1013052483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Epic Mickey Power of Illusion - Jafar_13
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 149
+        width: 61
+        height: 83
+      alignment: 9
+      pivot: {x: 0.37717524, y: 0.01984558}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2bf433eef1c840cc8dded2312dd0243
+      internalID: 1415294288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Epic Mickey Power of Illusion - Jafar_14
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 234
+        width: 50
+        height: 80
+      alignment: 9
+      pivot: {x: 0.24074829, y: 0.022215271}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e57b21df655e74ed891edc96784ab432
+      internalID: -1003736145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Epic Mickey Power of Illusion - Jafar_15
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 416
+        width: 44
+        height: 78
+      alignment: 9
+      pivot: {x: 0.23078364, y: 0.023519663}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad925aa40a6464914922d1746c0cb35e
+      internalID: -120374080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3DS - Epic Mickey Power of Illusion - Jafar_16
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 254
+        width: 61
+        height: 63
+      alignment: 9
+      pivot: {x: 0.20908242, y: 0.112219915}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dc5450bac6f94bd1acd5a1bb4169583
+      internalID: -2123260960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 053ee4802ffd14f0d957249b8bc04184
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      3DS - Epic Mickey Power of Illusion - Jafar_0: -844439753
+      3DS - Epic Mickey Power of Illusion - Jafar_1: 1925446191
+      3DS - Epic Mickey Power of Illusion - Jafar_10: 21127789
+      3DS - Epic Mickey Power of Illusion - Jafar_11: -126494731
+      3DS - Epic Mickey Power of Illusion - Jafar_12: 1013052483
+      3DS - Epic Mickey Power of Illusion - Jafar_13: 1415294288
+      3DS - Epic Mickey Power of Illusion - Jafar_14: -1003736145
+      3DS - Epic Mickey Power of Illusion - Jafar_15: -120374080
+      3DS - Epic Mickey Power of Illusion - Jafar_16: -2123260960
+      3DS - Epic Mickey Power of Illusion - Jafar_2: 1074093784
+      3DS - Epic Mickey Power of Illusion - Jafar_3: -338360447
+      3DS - Epic Mickey Power of Illusion - Jafar_4: -1174433722
+      3DS - Epic Mickey Power of Illusion - Jafar_5: 430308344
+      3DS - Epic Mickey Power of Illusion - Jafar_6: 119047730
+      3DS - Epic Mickey Power of Illusion - Jafar_7: 1755379898
+      3DS - Epic Mickey Power of Illusion - Jafar_8: 822340072
+      3DS - Epic Mickey Power of Illusion - Jafar_9: -157939672
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

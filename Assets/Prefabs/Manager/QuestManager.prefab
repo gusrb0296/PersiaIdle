@@ -1,0 +1,920 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5141291611225048189
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 974250837287360470}
+  - component: {fileID: 4834746785974146525}
+  m_Layer: 0
+  m_Name: QuestManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &974250837287360470
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5141291611225048189}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4834746785974146525
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5141291611225048189}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08b856fa3f5874fd4a125b95ca7afa40, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  achievements: []
+  quests:
+  - achievementID: "\uBA54\uC778 \uD018\uC2A4\uD2B8 1"
+    title: "\uC548\uB0B4"
+    description: "\uD018\uC2A4\uD2B8\uCC3D \uD074\uB9AD\uD558\uAE30"
+    type: 36
+    count: 0
+    isComplete: 0
+    isRewarded: 0
+    goal: 1
+    descriptionGoal: 0
+    rewardType: 0
+    reward: 1000
+  - achievementID: "\uBA54\uC778 \uD018\uC2A4\uD2B8 2"
+    title: "\uC131\uC7A5"
+    description: "\uD53C\uD574\uB7C9 \uC99D\uAC00 Lv.5 \uB2EC\uC131\uD558\uAE30"
+    type: 11
+    count: 0
+    isComplete: 0
+    isRewarded: 0
+    goal: 5
+    descriptionGoal: 5
+    rewardType: 0
+    reward: 1000
+  - achievementID: "\uBA54\uC778 \uD018\uC2A4\uD2B8 3"
+    title: "\uC131\uC7A5"
+    description: "\uCCB4\uB825 \uC99D\uAC00 Lv. 5 \uB2EC\uC131\uD558\uAE30"
+    type: 12
+    count: 0
+    isComplete: 0
+    isRewarded: 0
+    goal: 5
+    descriptionGoal: 5
+    rewardType: 1
+    reward: 300
+  - achievementID: "\uBA54\uC778 \uD018\uC2A4\uD2B8 4"
+    title: "\uC7A5\uBE44"
+    description: "\uBB34\uAE30 \uC18C\uD658 10\uD68C \uC9C4\uD589\uD558\uAE30"
+    type: 15
+    count: 0
+    isComplete: 0
+    isRewarded: 0
+    goal: 10
+    descriptionGoal: 10
+    rewardType: 1
+    reward: 300
+  - achievementID: "\uBA54\uC778 \uD018\uC2A4\uD2B8 5"
+    title: "\uC7A5\uBE44"
+    description: "\uBB34\uAE30 \uC7A5\uCC29\uD558\uAE30"
+    type: 0
+    count: 0
+    isComplete: 0
+    isRewarded: 0
+    goal: 1
+    descriptionGoal: 0
+    rewardType: 1
+    reward: 300
+  - achievementID: "\uBA54\uC778 \uD018\uC2A4\uD2B8 6"
+    title: "\uC9C4\uD589"
+    description: "\uC77C\uACA9\uD544\uC0B4 \uC0AC\uC6A9\uD558\uAE30"
+    type: 3
+    count: 0
+    isComplete: 0
+    isRewarded: 0
+    goal: 1
+    descriptionGoal: 0
+    rewardType: 1
+    reward: 300
+  - achievementID: "\uBA54\uC778 \uD018\uC2A4\uD2B8 7"
+    title: "\uC0AC\uB0E5"
+    description: "\uBAAC\uC2A4\uD130 20\uB9C8\uB9AC \uC0AC\uB0E5\uD558\uAE30"
+    type: 30
+    count: 0
+    isComplete: 0
+    isRewarded: 0
+    goal: 20
+    descriptionGoal: 20
+    rewardType: 1
+    reward: 300
+  - achievementID: "\uBA54\uC778 \uD018\uC2A4\uD2B8 8"
+    title: "\uB3CC\uD30C"
+    description: "1-1 \uC2A4\uD14C\uC774\uC9C0 \uB3CC\uD30C\uD558\uAE30"
+    type: 20
+    count: 0
+    isComplete: 0
+    isRewarded: 0
+    goal: 2
+    descriptionGoal: 0
+    rewardType: 1
+    reward: 300
+  - achievementID: "\uBA54\uC778 \uD018\uC2A4\uD2B8 9"
+    title: "\uC7A5\uBE44"
+    description: "\uAC11\uC637 \uC18C\uD658 10\uD68C \uC9C4\uD589\uD558\uAE30"
+    type: 16
+    count: 0
+    isComplete: 0
+    isRewarded: 0
+    goal: 10
+    descriptionGoal: 10
+    rewardType: 1
+    reward: 300
+  - achievementID: "\uBA54\uC778 \uD018\uC2A4\uD2B8 10"
+    title: "\uC7A5\uBE44"
+    description: "\uAC11\uC637 \uC7A5\uCC29\uD558\uAE30"
+    type: 1
+    count: 0
+    isComplete: 0
+    isRewarded: 0
+    goal: 1
+    descriptionGoal: 0
+    rewardType: 1
+    reward: 300
+  - achievementID: "\uBA54\uC778 \uD018\uC2A4\uD2B8 11"
+    title: "\uC0AC\uB0E5"
+    description: "\uBAAC\uC2A4\uD130 20\uB9C8\uB9AC \uC0AC\uB0E5\uD558\uAE30"
+    type: 30
+    count: 0
+    isComplete: 0
+    isRewarded: 0
+    goal: 20
+    descriptionGoal: 20
+    rewardType: 1
+    reward: 300
+  - achievementID: "\uBA54\uC778 \uD018\uC2A4\uD2B8 12"
+    title: "\uC2A4\uD0AC"
+    description: "\uC2A4\uD0AC \uC18C\uD658 10\uD68C \uC9C4\uD589\uD558\uAE30"
+    type: 17
+    count: 0
+    isComplete: 0
+    isRewarded: 0
+    goal: 10
+    descriptionGoal: 10
+    rewardType: 1
+    reward: 300
+  - achievementID: "\uBA54\uC778 \uD018\uC2A4\uD2B8 13"
+    title: "\uC2A4\uD0AC"
+    description: "\uC2A4\uD0AC \uC7A5\uCC29\uD558\uAE30"
+    type: 2
+    count: 0
+    isComplete: 0
+    isRewarded: 0
+    goal: 1
+    descriptionGoal: 0
+    rewardType: 1
+    reward: 300
+  - achievementID: "\uBA54\uC778 \uD018\uC2A4\uD2B8 14"
+    title: "\uC2A4\uD0AC"
+    description: "\uC2A4\uD0AC 2\uD68C \uC0AC\uC6A9\uD558\uAE30"
+    type: 4
+    count: 0
+    isComplete: 0
+    isRewarded: 0
+    goal: 2
+    descriptionGoal: 2
+    rewardType: 1
+    reward: 300
+  - achievementID: "\uBA54\uC778 \uD018\uC2A4\uD2B8 15"
+    title: "\uC2A4\uD0AC"
+    description: "\uC624\uD1A0 \uBC84\uD2BC \uD130\uCE58 \uD558\uAE30"
+    type: 35
+    count: 0
+    isComplete: 0
+    isRewarded: 0
+    goal: 1
+    descriptionGoal: 0
+    rewardType: 1
+    reward: 300
+  - achievementID: "\uBA54\uC778 \uD018\uC2A4\uD2B8 16"
+    title: "\uC0AC\uB0E5"
+    description: "\uBAAC\uC2A4\uD130 20\uB9C8\uB9AC \uC0AC\uB0E5\uD558\uAE30"
+    type: 30
+    count: 0
+    isComplete: 0
+    isRewarded: 0
+    goal: 20
+    descriptionGoal: 20
+    rewardType: 0
+    reward: 2000
+  - achievementID: "\uBA54\uC778 \uD018\uC2A4\uD2B8 17"
+    title: "\uC131\uC7A5"
+    description: "\uD53C\uD574\uB7C9 \uC99D\uAC00 Lv.10 \uB2EC\uC131\uD558\uAE30"
+    type: 11
+    count: 0
+    isComplete: 0
+    isRewarded: 0
+    goal: 10
+    descriptionGoal: 10
+    rewardType: 0
+    reward: 2000
+  - achievementID: "\uBA54\uC778 \uD018\uC2A4\uD2B8 18"
+    title: "\uC131\uC7A5"
+    description: "\uCCB4\uB825 \uC99D\uAC00 Lv.10 \uB2EC\uC131\uD558\uAE30"
+    type: 12
+    count: 0
+    isComplete: 0
+    isRewarded: 0
+    goal: 10
+    descriptionGoal: 10
+    rewardType: 1
+    reward: 300
+  - achievementID: "\uBA54\uC778 \uD018\uC2A4\uD2B8 19"
+    title: "\uC0AC\uB0E5"
+    description: "\uBAAC\uC2A4\uD130 30\uB9C8\uB9AC \uC0AC\uB0E5\uD558\uAE30"
+    type: 30
+    count: 0
+    isComplete: 0
+    isRewarded: 0
+    goal: 30
+    descriptionGoal: 30
+    rewardType: 1
+    reward: 300
+  - achievementID: "\uBA54\uC778 \uD018\uC2A4\uD2B8 20"
+    title: "\uB3CC\uD30C"
+    description: "1-5 \uC2A4\uD14C\uC774\uC9C0 \uB3CC\uD30C\uD558\uAE30"
+    type: 20
+    count: 0
+    isComplete: 0
+    isRewarded: 0
+    goal: 6
+    descriptionGoal: 0
+    rewardType: 1
+    reward: 300
+  - achievementID: "\uBA54\uC778 \uD018\uC2A4\uD2B8 21"
+    title: "\uB808\uBCA8"
+    description: "Lv.10 \uB2EC\uC131\uD558\uAE30"
+    type: 21
+    count: 0
+    isComplete: 0
+    isRewarded: 0
+    goal: 10
+    descriptionGoal: 10
+    rewardType: 6
+    reward: 2
+  - achievementID: "\uBA54\uC778 \uD018\uC2A4\uD2B8 22"
+    title: "\uB358\uC804"
+    description: "\uACE8\uB4DC \uB358\uC804 1\uD68C \uD50C\uB808\uC774"
+    type: 5
+    count: 0
+    isComplete: 0
+    isRewarded: 0
+    goal: 2
+    descriptionGoal: 1
+    rewardType: 1
+    reward: 300
+  - achievementID: "\uBA54\uC778 \uD018\uC2A4\uD2B8 23"
+    title: "\uC7A5\uBE44"
+    description: "\uBB34\uAE30 \uC18C\uD658 30\uD68C \uC9C4\uD589\uD558\uAE30"
+    type: 15
+    count: 0
+    isComplete: 0
+    isRewarded: 0
+    goal: 40
+    descriptionGoal: 30
+    rewardType: 1
+    reward: 300
+  - achievementID: "\uBA54\uC778 \uD018\uC2A4\uD2B8 24"
+    title: "\uC7A5\uBE44"
+    description: "\uBB34\uAE30 \uC77C\uAD04 \uD569\uC131\uD558\uAE30"
+    type: 25
+    count: 0
+    isComplete: 0
+    isRewarded: 0
+    goal: 1
+    descriptionGoal: 0
+    rewardType: 1
+    reward: 300
+  - achievementID: "\uBA54\uC778 \uD018\uC2A4\uD2B8 25"
+    title: "\uC0AC\uB0E5"
+    description: "\uBAAC\uC2A4\uD130 30\uB9C8\uB9AC \uC0AC\uB0E5\uD558\uAE30"
+    type: 30
+    count: 0
+    isComplete: 0
+    isRewarded: 0
+    goal: 30
+    descriptionGoal: 30
+    rewardType: 1
+    reward: 300
+  - achievementID: "\uBA54\uC778 \uD018\uC2A4\uD2B8 26"
+    title: "\uC7A5\uBE44"
+    description: "\uAC11\uC637 \uC18C\uD658 30\uD68C \uC9C4\uD589\uD558\uAE30"
+    type: 16
+    count: 0
+    isComplete: 0
+    isRewarded: 0
+    goal: 40
+    descriptionGoal: 30
+    rewardType: 1
+    reward: 300
+  - achievementID: "\uBA54\uC778 \uD018\uC2A4\uD2B8 27"
+    title: "\uC7A5\uBE44"
+    description: "\uAC11\uC637 \uC77C\uAD04 \uD569\uC131\uD558\uAE30"
+    type: 26
+    count: 0
+    isComplete: 0
+    isRewarded: 0
+    goal: 1
+    descriptionGoal: 0
+    rewardType: 1
+    reward: 300
+  - achievementID: "\uBA54\uC778 \uD018\uC2A4\uD2B8 28"
+    title: "\uB3CC\uD30C"
+    description: "1-8 \uC2A4\uD14C\uC774\uC9C0 \uB3CC\uD30C\uD558\uAE30"
+    type: 20
+    count: 0
+    isComplete: 0
+    isRewarded: 0
+    goal: 9
+    descriptionGoal: 0
+    rewardType: 1
+    reward: 300
+  - achievementID: "\uBA54\uC778 \uD018\uC2A4\uD2B8 29"
+    title: "\uC2A4\uD0AC"
+    description: "\uC2A4\uD0AC \uC18C\uD658 30\uD68C \uC9C4\uD589\uD558\uAE30"
+    type: 17
+    count: 0
+    isComplete: 0
+    isRewarded: 0
+    goal: 40
+    descriptionGoal: 30
+    rewardType: 1
+    reward: 300
+  - achievementID: "\uBA54\uC778 \uD018\uC2A4\uD2B8 30"
+    title: "\uC0AC\uB0E5"
+    description: "\uBAAC\uC2A4\uD130 30\uB9C8\uB9AC \uC0AC\uB0E5\uD558\uAE30"
+    type: 30
+    count: 0
+    isComplete: 0
+    isRewarded: 0
+    goal: 30
+    descriptionGoal: 30
+    rewardType: 0
+    reward: 3000
+  - achievementID: "\uBA54\uC778 \uD018\uC2A4\uD2B8 31"
+    title: "\uC131\uC7A5"
+    description: "\uD53C\uD574\uB7C9 \uC99D\uAC00 Lv.20 \uB2EC\uC131\uD558\uAE30"
+    type: 11
+    count: 0
+    isComplete: 0
+    isRewarded: 0
+    goal: 20
+    descriptionGoal: 20
+    rewardType: 0
+    reward: 3000
+  - achievementID: "\uBA54\uC778 \uD018\uC2A4\uD2B8 32"
+    title: "\uC131\uC7A5"
+    description: "\uCCB4\uB825 \uC99D\uAC00 Lv.20 \uB2EC\uC131\uD558\uAE30"
+    type: 12
+    count: 0
+    isComplete: 0
+    isRewarded: 0
+    goal: 20
+    descriptionGoal: 20
+    rewardType: 1
+    reward: 300
+  - achievementID: "\uBA54\uC778 \uD018\uC2A4\uD2B8 33"
+    title: "\uB3CC\uD30C"
+    description: "1-12 \uC2A4\uD14C\uC774\uC9C0 \uB3CC\uD30C\uD558\uAE30"
+    type: 20
+    count: 0
+    isComplete: 0
+    isRewarded: 0
+    goal: 13
+    descriptionGoal: 0
+    rewardType: 1
+    reward: 300
+  - achievementID: "\uBA54\uC778 \uD018\uC2A4\uD2B8 34"
+    title: "\uC7A5\uBE44"
+    description: "\uBB34\uAE30 \uC18C\uD658 30\uD68C \uC9C4\uD589\uD558\uAE30"
+    type: 15
+    count: 0
+    isComplete: 0
+    isRewarded: 0
+    goal: 70
+    descriptionGoal: 30
+    rewardType: 1
+    reward: 300
+  - achievementID: "\uBA54\uC778 \uD018\uC2A4\uD2B8 35"
+    title: "\uB808\uBCA8"
+    description: "Lv.13 \uB2EC\uC131\uD558\uAE30"
+    type: 21
+    count: 0
+    isComplete: 0
+    isRewarded: 0
+    goal: 13
+    descriptionGoal: 13
+    rewardType: 1
+    reward: 300
+  - achievementID: "\uBA54\uC778 \uD018\uC2A4\uD2B8 36"
+    title: "\uC0AC\uB0E5"
+    description: "\uBAAC\uC2A4\uD130 30\uB9C8\uB9AC \uC0AC\uB0E5\uD558\uAE30"
+    type: 30
+    count: 0
+    isComplete: 0
+    isRewarded: 0
+    goal: 30
+    descriptionGoal: 30
+    rewardType: 0
+    reward: 4000
+  - achievementID: "\uBA54\uC778 \uD018\uC2A4\uD2B8 37"
+    title: "\uC131\uC7A5"
+    description: "\uD53C\uD574\uB7C9 \uC99D\uAC00 Lv.30 \uB2EC\uC131\uD558\uAE30"
+    type: 11
+    count: 0
+    isComplete: 0
+    isRewarded: 0
+    goal: 30
+    descriptionGoal: 30
+    rewardType: 0
+    reward: 4000
+  - achievementID: "\uBA54\uC778 \uD018\uC2A4\uD2B8 38"
+    title: "\uC131\uC7A5"
+    description: "\uCCB4\uB825 \uC99D\uAC00 Lv.30 \uB2EC\uC131\uD558\uAE30"
+    type: 12
+    count: 0
+    isComplete: 0
+    isRewarded: 0
+    goal: 30
+    descriptionGoal: 30
+    rewardType: 1
+    reward: 300
+  - achievementID: "\uBA54\uC778 \uD018\uC2A4\uD2B8 39"
+    title: "\uB3CC\uD30C"
+    description: "1-15 \uC2A4\uD14C\uC774\uC9C0 \uB3CC\uD30C\uD558\uAE30"
+    type: 20
+    count: 0
+    isComplete: 0
+    isRewarded: 0
+    goal: 16
+    descriptionGoal: 0
+    rewardType: 1
+    reward: 300
+  - achievementID: "\uBA54\uC778 \uD018\uC2A4\uD2B8 40"
+    title: "\uC7A5\uBE44"
+    description: "\uAC11\uC637 \uC18C\uD658 30\uD68C \uC9C4\uD589\uD558\uAE30"
+    type: 16
+    count: 0
+    isComplete: 0
+    isRewarded: 0
+    goal: 70
+    descriptionGoal: 30
+    rewardType: 1
+    reward: 300
+  - achievementID: "\uBA54\uC778 \uD018\uC2A4\uD2B8 41"
+    title: "\uB808\uBCA8"
+    description: "Lv.16 \uB2EC\uC131\uD558\uAE30"
+    type: 21
+    count: 0
+    isComplete: 0
+    isRewarded: 0
+    goal: 16
+    descriptionGoal: 16
+    rewardType: 7
+    reward: 2
+  - achievementID: "\uBA54\uC778 \uD018\uC2A4\uD2B8 42"
+    title: "\uB358\uC804"
+    description: "\uAC01\uC131 \uB358\uC804 1\uD68C \uD50C\uB808\uC774"
+    type: 6
+    count: 0
+    isComplete: 0
+    isRewarded: 0
+    goal: 2
+    descriptionGoal: 1
+    rewardType: 3
+    reward: 2000
+  - achievementID: "\uBA54\uC778 \uD018\uC2A4\uD2B8 43"
+    title: "\uC131\uC7A5"
+    description: "\uBC88\uAC1C\uC758 \uBCF4\uC625 \uAC01\uC131 10 \uB808\uBCA8 \uB2EC\uC131"
+    type: 40
+    count: 0
+    isComplete: 0
+    isRewarded: 0
+    goal: 10
+    descriptionGoal: 10
+    rewardType: 3
+    reward: 2000
+  - achievementID: "\uBA54\uC778 \uD018\uC2A4\uD2B8 44"
+    title: "\uC131\uC7A5"
+    description: "\uC218\uD638\uC758 \uBCF4\uC625 \uAC01\uC131 10 \uB808\uBCA8 \uB2EC\uC131"
+    type: 41
+    count: 0
+    isComplete: 0
+    isRewarded: 0
+    goal: 10
+    descriptionGoal: 10
+    rewardType: 3
+    reward: 2000
+  - achievementID: "\uBA54\uC778 \uD018\uC2A4\uD2B8 45"
+    title: "\uC131\uC7A5"
+    description: "\uC6B4\uBA85\uC758 \uBCF4\uC625 \uAC01\uC131 10 \uB808\uBCA8 \uB2EC\uC131"
+    type: 42
+    count: 0
+    isComplete: 0
+    isRewarded: 0
+    goal: 10
+    descriptionGoal: 10
+    rewardType: 3
+    reward: 2000
+  - achievementID: "\uBA54\uC778 \uD018\uC2A4\uD2B8 46"
+    title: "\uC131\uC7A5"
+    description: "\uD3ED\uD48D\uC758 \uBCF4\uC625 \uAC01\uC131 10 \uB808\uBCA8 \uB2EC\uC131"
+    type: 43
+    count: 0
+    isComplete: 0
+    isRewarded: 0
+    goal: 10
+    descriptionGoal: 10
+    rewardType: 3
+    reward: 2000
+  - achievementID: "\uBA54\uC778 \uD018\uC2A4\uD2B8 47"
+    title: "\uC131\uC7A5"
+    description: "\uBD84\uB178\uC758 \uBCF4\uC625 \uAC01\uC131 10 \uB808\uBCA8 \uB2EC\uC131"
+    type: 44
+    count: 0
+    isComplete: 0
+    isRewarded: 0
+    goal: 10
+    descriptionGoal: 10
+    rewardType: 3
+    reward: 2000
+  - achievementID: "\uBA54\uC778 \uD018\uC2A4\uD2B8 48"
+    title: "\uC131\uC7A5"
+    description: "\uC2EC\uC5F0\uC758 \uBCF4\uC625 \uAC01\uC131 10 \uB808\uBCA8 \uB2EC\uC131"
+    type: 45
+    count: 0
+    isComplete: 0
+    isRewarded: 0
+    goal: 10
+    descriptionGoal: 10
+    rewardType: 1
+    reward: 300
+  - achievementID: "\uBA54\uC778 \uD018\uC2A4\uD2B8 49"
+    title: "\uC0AC\uB0E5"
+    description: "\uBAAC\uC2A4\uD130 50\uB9C8\uB9AC \uC0AC\uB0E5\uD558\uAE30"
+    type: 30
+    count: 0
+    isComplete: 0
+    isRewarded: 0
+    goal: 50
+    descriptionGoal: 50
+    rewardType: 1
+    reward: 300
+  - achievementID: "\uBA54\uC778 \uD018\uC2A4\uD2B8 50"
+    title: "\uC7A5\uBE44"
+    description: "\uBB34\uAE30 \uC18C\uD658 30\uD68C \uC9C4\uD589\uD558\uAE30"
+    type: 15
+    count: 0
+    isComplete: 0
+    isRewarded: 0
+    goal: 100
+    descriptionGoal: 30
+    rewardType: 1
+    reward: 300
+  - achievementID: "\uBA54\uC778 \uD018\uC2A4\uD2B8 51"
+    title: "\uC7A5\uBE44"
+    description: "\uAC11\uC637 \uC18C\uD658 30\uD68C \uC9C4\uD589\uD558\uAE30"
+    type: 16
+    count: 0
+    isComplete: 0
+    isRewarded: 0
+    goal: 100
+    descriptionGoal: 30
+    rewardType: 1
+    reward: 300
+  - achievementID: "\uBA54\uC778 \uD018\uC2A4\uD2B8 52"
+    title: "\uB3CC\uD30C"
+    description: "1-18 \uC2A4\uD14C\uC774\uC9C0 \uB3CC\uD30C\uD558\uAE30"
+    type: 20
+    count: 0
+    isComplete: 0
+    isRewarded: 0
+    goal: 19
+    descriptionGoal: 0
+    rewardType: 1
+    reward: 300
+  - achievementID: "\uBA54\uC778 \uD018\uC2A4\uD2B8 53"
+    title: "\uC131\uC7A5"
+    description: "\uD53C\uD574\uB7C9 \uC99D\uAC00 Lv.40 \uB2EC\uC131\uD558\uAE30"
+    type: 11
+    count: 0
+    isComplete: 0
+    isRewarded: 0
+    goal: 40
+    descriptionGoal: 40
+    rewardType: 1
+    reward: 300
+  - achievementID: "\uBA54\uC778 \uD018\uC2A4\uD2B8 54"
+    title: "\uC131\uC7A5"
+    description: "\uCCB4\uB825 \uC99D\uAC00 Lv.40 \uB2EC\uC131\uD558\uAE30"
+    type: 12
+    count: 0
+    isComplete: 0
+    isRewarded: 0
+    goal: 40
+    descriptionGoal: 40
+    rewardType: 6
+    reward: 2
+  - achievementID: "\uBA54\uC778 \uD018\uC2A4\uD2B8 55"
+    title: "\uB358\uC804"
+    description: "\uACE8\uB4DC \uB358\uC804 1\uD68C \uD50C\uB808\uC774"
+    type: 5
+    count: 0
+    isComplete: 0
+    isRewarded: 0
+    goal: 3
+    descriptionGoal: 1
+    rewardType: 1
+    reward: 300
+  - achievementID: "\uBA54\uC778 \uD018\uC2A4\uD2B8 56"
+    title: "\uB808\uBCA8"
+    description: "Lv. 20 \uB2EC\uC131\uD558\uAE30"
+    type: 21
+    count: 0
+    isComplete: 0
+    isRewarded: 0
+    goal: 20
+    descriptionGoal: 20
+    rewardType: 1
+    reward: 300
+  - achievementID: "\uBA54\uC778 \uD018\uC2A4\uD2B8 57"
+    title: "\uC7A5\uBE44"
+    description: "\uBB34\uAE30 \uC18C\uD658 30\uD68C \uC9C4\uD589\uD558\uAE30"
+    type: 15
+    count: 0
+    isComplete: 0
+    isRewarded: 0
+    goal: 130
+    descriptionGoal: 30
+    rewardType: 1
+    reward: 300
+  - achievementID: "\uBA54\uC778 \uD018\uC2A4\uD2B8 58"
+    title: "\uC7A5\uBE44"
+    description: "\uAC11\uC637 \uC18C\uD658 30\uD68C \uC9C4\uD589\uD558\uAE30"
+    type: 16
+    count: 0
+    isComplete: 0
+    isRewarded: 0
+    goal: 130
+    descriptionGoal: 30
+    rewardType: 1
+    reward: 300
+  - achievementID: "\uBA54\uC778 \uD018\uC2A4\uD2B8 59"
+    title: "\uC0AC\uB0E5"
+    description: "\uBAAC\uC2A4\uD130 50\uB9C8\uB9AC \uC0AC\uB0E5\uD558\uAE30"
+    type: 30
+    count: 0
+    isComplete: 0
+    isRewarded: 0
+    goal: 50
+    descriptionGoal: 50
+    rewardType: 0
+    reward: 5000
+  - achievementID: "\uBA54\uC778 \uD018\uC2A4\uD2B8 60"
+    title: "\uC131\uC7A5"
+    description: "\uD53C\uD574\uB7C9 \uC99D\uAC00 Lv.50 \uB2EC\uC131\uD558\uAE30"
+    type: 11
+    count: 0
+    isComplete: 0
+    isRewarded: 0
+    goal: 50
+    descriptionGoal: 50
+    rewardType: 0
+    reward: 5000
+  - achievementID: "\uBA54\uC778 \uD018\uC2A4\uD2B8 61"
+    title: "\uC131\uC7A5"
+    description: "\uCCB4\uB825 \uC99D\uAC00 Lv.50 \uB2EC\uC131\uD558\uAE30"
+    type: 12
+    count: 0
+    isComplete: 0
+    isRewarded: 0
+    goal: 50
+    descriptionGoal: 50
+    rewardType: 7
+    reward: 2
+  - achievementID: "\uBA54\uC778 \uD018\uC2A4\uD2B8 62"
+    title: "\uC9C4\uD589"
+    description: "\uC2A4\uD0AC \uB808\uBCA8\uC5C5 \uD558\uAE30"
+    type: 47
+    count: 0
+    isComplete: 0
+    isRewarded: 0
+    goal: 1
+    descriptionGoal: 0
+    rewardType: 1
+    reward: 300
+  - achievementID: "\uBA54\uC778 \uD018\uC2A4\uD2B8 63"
+    title: "\uB358\uC804"
+    description: "\uAC01\uC131 \uB358\uC804 1\uD68C \uD50C\uB808\uC774"
+    type: 6
+    count: 0
+    isComplete: 0
+    isRewarded: 0
+    goal: 3
+    descriptionGoal: 1
+    rewardType: 3
+    reward: 2000
+  - achievementID: "\uBA54\uC778 \uD018\uC2A4\uD2B8 64"
+    title: "\uC131\uC7A5"
+    description: "\uBC88\uAC1C\uC758 \uBCF4\uC625 \uAC01\uC131 20 \uB808\uBCA8 \uB2EC\uC131"
+    type: 40
+    count: 0
+    isComplete: 0
+    isRewarded: 0
+    goal: 20
+    descriptionGoal: 20
+    rewardType: 3
+    reward: 2000
+  - achievementID: "\uBA54\uC778 \uD018\uC2A4\uD2B8 65"
+    title: "\uC131\uC7A5"
+    description: "\uC218\uD638\uC758 \uBCF4\uC625 \uAC01\uC131 20 \uB808\uBCA8 \uB2EC\uC131"
+    type: 41
+    count: 0
+    isComplete: 0
+    isRewarded: 0
+    goal: 20
+    descriptionGoal: 20
+    rewardType: 3
+    reward: 2000
+  - achievementID: "\uBA54\uC778 \uD018\uC2A4\uD2B8 66"
+    title: "\uC131\uC7A5"
+    description: "\uC6B4\uBA85\uC758 \uBCF4\uC625 \uAC01\uC131 20 \uB808\uBCA8 \uB2EC\uC131"
+    type: 42
+    count: 0
+    isComplete: 0
+    isRewarded: 0
+    goal: 20
+    descriptionGoal: 20
+    rewardType: 3
+    reward: 2000
+  - achievementID: "\uBA54\uC778 \uD018\uC2A4\uD2B8 67"
+    title: "\uC131\uC7A5"
+    description: "\uD3ED\uD48D\uC758 \uBCF4\uC625 \uAC01\uC131 20 \uB808\uBCA8 \uB2EC\uC131"
+    type: 43
+    count: 0
+    isComplete: 0
+    isRewarded: 0
+    goal: 20
+    descriptionGoal: 20
+    rewardType: 3
+    reward: 2000
+  - achievementID: "\uBA54\uC778 \uD018\uC2A4\uD2B8 68"
+    title: "\uC131\uC7A5"
+    description: "\uBD84\uB178\uC758 \uBCF4\uC625 \uAC01\uC131 20 \uB808\uBCA8 \uB2EC\uC131"
+    type: 44
+    count: 0
+    isComplete: 0
+    isRewarded: 0
+    goal: 20
+    descriptionGoal: 20
+    rewardType: 3
+    reward: 2000
+  - achievementID: "\uBA54\uC778 \uD018\uC2A4\uD2B8 69"
+    title: "\uC131\uC7A5"
+    description: "\uC2EC\uC5F0\uC758 \uBCF4\uC625 \uAC01\uC131 20 \uB808\uBCA8 \uB2EC\uC131"
+    type: 45
+    count: 0
+    isComplete: 0
+    isRewarded: 0
+    goal: 20
+    descriptionGoal: 20
+    rewardType: 1
+    reward: 300
+  - achievementID: "\uBA54\uC778 \uD018\uC2A4\uD2B8 70"
+    title: "\uC9C4\uD589"
+    description: "\uC2A4\uD0AC \uB808\uBCA8\uC5C5 \uD558\uAE30"
+    type: 47
+    count: 0
+    isComplete: 0
+    isRewarded: 0
+    goal: 2
+    descriptionGoal: 0
+    rewardType: 8
+    reward: 3
+  - achievementID: "\uBA54\uC778 \uD018\uC2A4\uD2B8 71"
+    title: "\uB358\uC804"
+    description: "\uC7A5\uBE44 \uB358\uC804 1\uD68C \uD50C\uB808\uC774"
+    type: 7
+    count: 0
+    isComplete: 0
+    isRewarded: 0
+    goal: 1
+    descriptionGoal: 1
+    rewardType: 2
+    reward: 3000
+  - achievementID: "\uBA54\uC778 \uD018\uC2A4\uD2B8 72"
+    title: "\uC9C4\uD589"
+    description: "\uC7A5\uBE44 \uB808\uBCA8\uC5C5 \uD558\uAE30"
+    type: 46
+    count: 0
+    isComplete: 0
+    isRewarded: 0
+    goal: 1
+    descriptionGoal: 0
+    rewardType: 1
+    reward: 300
+  repeatQuest:
+  - achievementID: "\uBC18\uBCF5 \uD018\uC2A4\uD2B8 1"
+    title: "\uC0AC\uB0E5"
+    description: "\uBAAC\uC2A4\uD130 *\uB9C8\uB9AC \uC0AC\uB0E5\uD558\uAE30"
+    type: 30
+    count: 0
+    isComplete: 0
+    isRewarded: 0
+    levelLimit: 020000000400000063000000
+    goal: 3200000064000000c8000000
+    rewardType: 6
+    rewardAmount: 010000000100000001000000
+  - achievementID: "\uBC18\uBCF5 \uD018\uC2A4\uD2B8 2"
+    title: "\uC131\uC7A5"
+    description: "\uD53C\uD574\uB7C9 \uC99D\uAC00 Lv.* \uB2EC\uC131\uD558\uAE30"
+    type: 11
+    count: 0
+    isComplete: 0
+    isRewarded: 0
+    levelLimit: 0000000063000000
+    goal: 3200000014000000
+    rewardType: 7
+    rewardAmount: 0100000001000000
+  - achievementID: "\uBC18\uBCF5 \uD018\uC2A4\uD2B8 3"
+    title: "\uC131\uC7A5"
+    description: "\uCCB4\uB825 \uC99D\uAC00 Lv.* \uB2EC\uC131\uD558\uAE30"
+    type: 12
+    count: 0
+    isComplete: 0
+    isRewarded: 0
+    levelLimit: 0000000063000000
+    goal: 3200000014000000
+    rewardType: 8
+    rewardAmount: 0100000001000000
+  - achievementID: "\uBC18\uBCF5 \uD018\uC2A4\uD2B8 4"
+    title: "\uB3CC\uD30C"
+    description: "* \uC2A4\uD14C\uC774\uC9C0 \uB3CC\uD30C\uD558\uAE30"
+    type: 20
+    count: 0
+    isComplete: 0
+    isRewarded: 0
+    levelLimit: 0000000063000000
+    goal: 1500000003000000
+    rewardType: 1
+    rewardAmount: 2c0100002c010000
+  - achievementID: "\uBC18\uBCF5 \uD018\uC2A4\uD2B8 5"
+    title: "\uB808\uBCA8"
+    description: "Lv.* \uB2EC\uC131\uD558\uAE30"
+    type: 21
+    count: 0
+    isComplete: 0
+    isRewarded: 0
+    levelLimit: 0000000063000000
+    goal: 1400000003000000
+    rewardType: 1
+    rewardAmount: 2c0100002c010000
+  - achievementID: "\uBC18\uBCF5 \uD018\uC2A4\uD2B8 6"
+    title: "\uC7A5\uBE44"
+    description: "\uBB34\uAE30 \uC18C\uD658 *\uD68C \uC9C4\uD589\uD558\uAE30"
+    type: 15
+    count: 0
+    isComplete: 0
+    isRewarded: 0
+    levelLimit: 000000000400000063000000
+    goal: 820000001e0000003c000000
+    rewardType: 1
+    rewardAmount: 2c0100002c0100002c010000
+  - achievementID: "\uBC18\uBCF5 \uD018\uC2A4\uD2B8 7"
+    title: "\uC7A5\uBE44"
+    description: "\uAC11\uC637 \uC18C\uD658 *\uD68C \uC9C4\uD589\uD558\uAE30"
+    type: 16
+    count: 0
+    isComplete: 0
+    isRewarded: 0
+    levelLimit: 000000000400000063000000
+    goal: 820000001e0000003c000000
+    rewardType: 1
+    rewardAmount: 2c0100002c0100002c010000
+  stackCounterList: 0500000006000000070000000b0000000c0000000f00000010000000110000001400000015000000190000001a00000028000000290000002a0000002b0000002c0000002d0000002e0000002f000000
+  preCounterList: 000000000100000002000000030000000400000023000000

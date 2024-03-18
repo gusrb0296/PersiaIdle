@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8101786241716335633
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1998226387214682737}
+  - component: {fileID: 4440728439783051498}
+  m_Layer: 0
+  m_Name: CurrencyManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1998226387214682737
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8101786241716335633}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4440728439783051498
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8101786241716335633}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f7979773e39343b88ecae3023082ed7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currencies:
+  - type: 0
+    amount: 0
+  - type: 1
+    amount: 0
+  - type: 2
+    amount: 0
+  - type: 3
+    amount: 0
+  - type: 4
+    amount: 0
+  - type: 5
+    amount: 0
+  - type: 6
+    amount: 3
+  - type: 7
+    amount: 3
+  - type: 8
+    amount: 3
+  currencyIcons:
+  - {fileID: 21300000, guid: d23a5fc6b98cd4a49aa9a1b2ba3627cc, type: 3}
+  - {fileID: 21300000, guid: 5adedd236bae049f7b9ad39ead4e8576, type: 3}
+  - {fileID: 21300000, guid: aa5aa86c717a44399891242310e9edad, type: 3}
+  - {fileID: 21300000, guid: f5e864323919342aabedbf5a6bff6ad6, type: 3}
+  - {fileID: 21300000, guid: c380adafa593d42f0852f758d545c1d5, type: 3}
+  - {fileID: 21300000, guid: c380adafa593d42f0852f758d545c1d5, type: 3}
+  - {fileID: 21300000, guid: bdf38365757624bbe80b80fd7832055c, type: 3}
+  - {fileID: 21300000, guid: bdf38365757624bbe80b80fd7832055c, type: 3}
+  - {fileID: 21300000, guid: bdf38365757624bbe80b80fd7832055c, type: 3}
+  - {fileID: 21300000, guid: 05927cdfe212a478f8407151ba2b2335, type: 3}

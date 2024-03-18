@@ -1,0 +1,418 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5859222952013670084
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7713277484438045001}
+  - component: {fileID: 6690193944163746137}
+  m_Layer: 0
+  m_Name: SkillManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7713277484438045001
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5859222952013670084}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6690193944163746137
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5859222952013670084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42999dc8165c8465fb51fcb1d3ac6ab9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerActiveSkillPrefabs:
+  - {fileID: 8371061536800332358, guid: 7dddb2c4f81044632ba51636fa438ef6, type: 3}
+  - {fileID: 3005680015718790906, guid: 52d43e21e66304c7eb978fdf76f03498, type: 3}
+  - {fileID: 3005680015718790906, guid: 05422375934f745919542ceecb47c610, type: 3}
+  - {fileID: 8371061536800332358, guid: 7dff6ee54250940bdbad45f0fa423bb6, type: 3}
+  - {fileID: 8371061536800332358, guid: 465315363c9124313b46ee05c3599016, type: 3}
+  - {fileID: 8371061536800332358, guid: 236e1c8d44c974534bb974a4d28fa5d3, type: 3}
+  - {fileID: 8371061536800332358, guid: fe72e901841b84dc7ab682381fd92c7c, type: 3}
+  activeSkillFixedInfos:
+  - {fileID: 11400000, guid: 6fd841f8e0dca4123832f55dd75fa70f, type: 2}
+  - {fileID: 11400000, guid: 3cee0ec918b834b3bbbf3b640fca5c14, type: 2}
+  - {fileID: 11400000, guid: 54c4abdaf0e9149f3a09cfbe1a6663e4, type: 2}
+  - {fileID: 11400000, guid: e53b120d2ad314dd8899fea56b227110, type: 2}
+  - {fileID: 11400000, guid: 58ce0c706f1b549a196d0e4e7712bfba, type: 2}
+  - {fileID: 11400000, guid: 935a42515f34e46879491e4b7b98cb1a, type: 2}
+  - {fileID: 11400000, guid: 99ea2100b1f3244c69df030c767d326d, type: 2}
+  buffSkillFixedInfos:
+  - {fileID: 11400000, guid: ffef70993311148dc83594b45a17ec8c, type: 2}
+  - {fileID: 11400000, guid: 80fc42f6723bb466599e2507699ee41d, type: 2}
+  - {fileID: 11400000, guid: 396ac0d09b0f4474ea260b30616cbd46, type: 2}
+  passiveSkillFixedInfos:
+  - {fileID: 11400000, guid: 9f9598a2169f544dfbcca7bf0abf294d, type: 2}
+  - {fileID: 11400000, guid: 9cee0b4e9b7da4b33be3ea0ecc229210, type: 2}
+  - {fileID: 11400000, guid: 22c77e8e369af4ffa94ae23e4c235526, type: 2}
+  - {fileID: 11400000, guid: ce2637faf19cb4ef4b1e299a8404dc32, type: 2}
+  - {fileID: 11400000, guid: 8cc08e7bad1b643dda03bc59eb614d22, type: 2}
+  - {fileID: 11400000, guid: 3059c007f144a4e7da19f4d3f3cc940f, type: 2}
+  skillIcon:
+  - {fileID: 21300000, guid: 83ff26a401357404da77f10f8eb424bc, type: 3}
+  - {fileID: 21300000, guid: c18e25f02c6c045b28cf50155a31e314, type: 3}
+  - {fileID: 21300000, guid: f533d8c97620f405585ed5a644cd732e, type: 3}
+  - {fileID: 21300000, guid: cb25d0367add144aa9174fc422a1c980, type: 3}
+  - {fileID: 21300000, guid: 1d507c49da8a1466a9ccc8e602fc9308, type: 3}
+  - {fileID: 21300000, guid: 35a28da01104e4363b305021b0001986, type: 3}
+  - {fileID: 21300000, guid: e7cc90ab89b2f47d6a5245254a60d5a1, type: 3}
+  - {fileID: 21300000, guid: 6a64208a2b8ee448a98b7b338fdc391d, type: 3}
+  - {fileID: 21300000, guid: 2e909c0dfd5cd4563bdd4cb89824b72b, type: 3}
+  - {fileID: 21300000, guid: b6db0dd2bcb0e46bc8cb5c0869de211c, type: 3}
+  - {fileID: 21300000, guid: 2e2eef0797b324e3ebbabfba86273efb, type: 3}
+  - {fileID: 21300000, guid: 009213307443d4aacb8866f172defd06, type: 3}
+  - {fileID: 21300000, guid: 3fa1f52b445184ebdae1acf2558f6e71, type: 3}
+  - {fileID: 21300000, guid: 04343c1516f6940d78f11d55684dd952, type: 3}
+  - {fileID: 21300000, guid: c39ecf91856754066960253cef723e65, type: 3}
+  - {fileID: 21300000, guid: 9104d3c0ba46a45c39d4acbdf33aec4d, type: 3}
+  - {fileID: 21300000, guid: c363b45ab3dd1476f9f674a3dd965067, type: 3}
+  playerSpecialSkillData:
+    skillName: "\uD2B9\uC218\uAE30"
+    rarity: 4
+    description: "\uC804\uC0AC\uC5D0\uAC8C \uD2B9\uBCC4\uD55C \uD798\uC744 \uBD80\uC5EC\uD558\uB294
+      \uAE30\uC220\uC785\uB2C8\uB2E4."
+    skillType: 0
+    iconIndex: 16
+    isOwned: 1
+    quantity: 0
+    levelFrom0: 0
+    coolTime: 20
+    baseManaConsume: 0
+    skillFullTime: 10
+    animType: 22
+    animParameter: 
+    skillAnimTime: 0
+    equipIndex: 0
+    maxAttackCount: 0
+    baseMultiplier: 500
+    attackDistance: 0
+    tickUnitTime: 0
+    tempBuffStatus:
+      attackBuff: 0
+      healthBuff: 0
+      damageReductionBuff: 0
+      manaBuff: 0
+      manaRecoveryBuff: 0
+      critChanceBuff: 0
+      critDamageBuff: 0
+      attackSpeedBuff: 0
+      movementSpeedBuff: 1
+      skillDamageBuff: 0
+  playerSpecialActiveSkillInfo: {fileID: 11400000, guid: bf5d67d37b84441859233f7ddb29e288, type: 2}
+  playerActiveSkillDatas:
+  - skillName: "\uCC9C\uAC80 \uAC15\uB9BC"
+    rarity: 3
+    description: "\uC791\uC740 \uBC94\uC704\uC758 \uC801\uC5D0\uAC8C \uB370\uBBF8\uC9C0\uC758
+      n%\uB9CC\uD07C \uD53C\uD574\uB97C \uC785\uD788\uB294 \uCC3D\uC744 \uB5A8\uC5B4\uB728\uB9B0\uB2E4.
+      [m\uCD08]"
+    skillType: 0
+    iconIndex: 0
+    isOwned: 0
+    quantity: 0
+    levelFrom0: 0
+    coolTime: 10
+    baseManaConsume: 320
+    skillFullTime: 1
+    animType: 0
+    animParameter: 
+    skillAnimTime: 0
+    equipIndex: 0
+    maxAttackCount: 0
+    baseMultiplier: 1300
+    attackDistance: 3
+    tickUnitTime: 0
+  - skillName: "\uCC9C\uB465\uC758 \uCE7C\uB0A0"
+    rarity: 2
+    description: "\uB113\uC740 \uBC94\uC704\uC758 \uC801\uC5D0\uAC8C \uB370\uBBF8\uC9C0\uC758
+      n% \uB9CC\uD07C \uD53C\uD574\uB97C \uC785\uD788\uB294 \uBC88\uAC1C\uB97C \uB0B4\uB9AC\uCE5C\uB2E4.
+      [m\uCD08]"
+    skillType: 0
+    iconIndex: 0
+    isOwned: 0
+    quantity: 0
+    levelFrom0: 0
+    coolTime: 8
+    baseManaConsume: 320
+    skillFullTime: 0.6
+    animType: 0
+    animParameter: 
+    skillAnimTime: 0
+    equipIndex: 0
+    maxAttackCount: 5
+    baseMultiplier: 500
+    attackDistance: 4
+    tickUnitTime: 0.2
+  - skillName: "\uBE44\uAC80\uC758 \uD64D\uC218"
+    rarity: 2
+    description: "\uC804\uBC29 \uB2E4\uC218\uC758 \uC801\uC5D0\uAC8C \uB370\uBBF8\uC9C0\uC758
+      n% \uB9CC\uD07C \uD53C\uD574\uB97C \uC785\uD788\uB294 \uAD11\uC120\uC744 \uBC1C\uC0AC\uD55C\uB2E4.
+      [m\uCD08]"
+    skillType: 0
+    iconIndex: 0
+    isOwned: 0
+    quantity: 0
+    levelFrom0: 0
+    coolTime: 8
+    baseManaConsume: 320
+    skillFullTime: 0.55
+    animType: 0
+    animParameter: 
+    skillAnimTime: 0
+    equipIndex: 0
+    maxAttackCount: 0
+    baseMultiplier: 200
+    attackDistance: 0
+    tickUnitTime: 0
+  - skillName: "\uD654\uC5FC \uAC80\uD48D"
+    rarity: 1
+    description: "\uC804\uBC29 \uC18C\uC218\uC758 \uC801\uC5D0\uAC8C \uAC80\uC744
+      \uD718\uB458\uB7EC \uB370\uBBF8\uC9C0\uC758 n% \uB9CC\uD07C \uD654\uC5FC \uD53C\uD574\uB97C
+      \uC785\uD78C\uB2E4. [m\uCD08]"
+    skillType: 0
+    iconIndex: 0
+    isOwned: 0
+    quantity: 0
+    levelFrom0: 0
+    coolTime: 6
+    baseManaConsume: 160
+    skillFullTime: 0.95
+    animType: 0
+    animParameter: 
+    skillAnimTime: 0
+    equipIndex: 0
+    maxAttackCount: 0
+    baseMultiplier: 150
+    attackDistance: 0
+    tickUnitTime: 0
+  - skillName: "\uBE59\uACB0\uC758 \uD3EC\uD6A8"
+    rarity: 1
+    description: "\uC804\uBC29 \uB2E4\uC218\uC758 \uC801\uC5D0\uAC8C \uAC80\uC744
+      \uB0B4\uB824\uCCD0 \uB370\uBBF8\uC9C0\uC758 n% \uB9CC\uD07C \uC5BC\uC74C \uD53C\uD574\uB97C
+      \uC785\uD78C\uB2E4. [m\uCD08]"
+    skillType: 0
+    iconIndex: 0
+    isOwned: 0
+    quantity: 0
+    levelFrom0: 0
+    coolTime: 6
+    baseManaConsume: 80
+    skillFullTime: 1.1
+    animType: 0
+    animParameter: 
+    skillAnimTime: 0
+    equipIndex: 0
+    maxAttackCount: 0
+    baseMultiplier: 50
+    attackDistance: 0
+    tickUnitTime: 0
+  - skillName: "\uBD88\uBA78\uC758 \uAC80"
+    rarity: 0
+    description: "\uC804\uBC29 \uC18C\uC218\uC758 \uC801 \uC704\uC5D0\uC11C \uAC80\uC744
+      \uB0B4\uB824\uCCD0 n% \uB9CC\uD07C \uD53C\uD574\uB97C \uC785\uD78C\uB2E4. [m\uCD08]"
+    skillType: 0
+    iconIndex: 0
+    isOwned: 0
+    quantity: 0
+    levelFrom0: 0
+    coolTime: 4
+    baseManaConsume: 40
+    skillFullTime: 0.7
+    animType: 0
+    animParameter: 
+    skillAnimTime: 0
+    equipIndex: 0
+    maxAttackCount: 0
+    baseMultiplier: 150
+    attackDistance: 0
+    tickUnitTime: 0
+  - skillName: "\uC591\uB0A0 \uBCA0\uAE30"
+    rarity: 0
+    description: "\uC8FC\uBCC0 \uC801\uC5D0\uAC8C \uB370\uBBF8\uC9C0\uC758 n%\uB9CC\uD07C
+      \uD53C\uD574\uB97C \uC785\uD788\uB294 \uAC80\uC744 \uD718\uB450\uB978\uB2E4.
+      [m\uCD08]"
+    skillType: 0
+    iconIndex: 0
+    isOwned: 0
+    quantity: 0
+    levelFrom0: 0
+    coolTime: 4
+    baseManaConsume: 40
+    skillFullTime: 1
+    animType: 0
+    animParameter: 
+    skillAnimTime: 0
+    equipIndex: 0
+    maxAttackCount: 0
+    baseMultiplier: 100
+    attackDistance: 0
+    tickUnitTime: 0
+  playerBuffSkillDatas:
+  - skillName: "\uC5B4\uB460\uC758 \uAC80"
+    rarity: 3
+    description: "15\uCD08\uAC04 \uBAA8\uB4E0 \uC2A4\uD0EF\uC774 n% \uC99D\uAC00\uD55C\uB2E4."
+    skillType: 1
+    iconIndex: 0
+    isOwned: 0
+    quantity: 0
+    levelFrom0: 0
+    coolTime: 30
+    baseManaConsume: 600
+    skillFullTime: 15
+    animType: 0
+    animParameter: 
+    skillAnimTime: 0
+    equipIndex: 0
+    baseBuffStatus:
+      attackBuff: 10
+      healthBuff: 10
+      damageReductionBuff: 0.1
+      manaBuff: 10
+      manaRecoveryBuff: 10
+      critChanceBuff: 0.1
+      critDamageBuff: 10
+      attackSpeedBuff: 0.1
+      movementSpeedBuff: 0.1
+      skillDamageBuff: 10
+  - skillName: "\uBC18\uACA9\uC758 \uAC80"
+    rarity: 3
+    description: "15\uCD08\uAC04 \uCE58\uBA85\uD0C0 \uB300\uBBF8\uC9C0\uAC00 n% \uC0C1\uC2B9\uD55C\uB2E4."
+    skillType: 1
+    iconIndex: 0
+    isOwned: 0
+    quantity: 0
+    levelFrom0: 0
+    coolTime: 30
+    baseManaConsume: 400
+    skillFullTime: 15
+    animType: 0
+    animParameter: 
+    skillAnimTime: 0
+    equipIndex: 0
+    baseBuffStatus:
+      attackBuff: 0
+      healthBuff: 0
+      damageReductionBuff: 0
+      manaBuff: 0
+      manaRecoveryBuff: 0
+      critChanceBuff: 0
+      critDamageBuff: 100
+      attackSpeedBuff: 0
+      movementSpeedBuff: 0
+      skillDamageBuff: 0
+  - skillName: "\uAE09\uC18C \uD0C0\uACA9"
+    rarity: 3
+    description: "15\uCD08\uAC04 \uCE58\uBA85\uD0C0 \uD655\uB960\uC774 n% \uC0C1\uC2B9\uD55C\uB2E4."
+    skillType: 1
+    iconIndex: 0
+    isOwned: 0
+    quantity: 0
+    levelFrom0: 0
+    coolTime: 30
+    baseManaConsume: 200
+    skillFullTime: 15
+    animType: 0
+    animParameter: 
+    skillAnimTime: 0
+    equipIndex: 0
+    baseBuffStatus:
+      attackBuff: 0
+      healthBuff: 0
+      damageReductionBuff: 0
+      manaBuff: 0
+      manaRecoveryBuff: 0
+      critChanceBuff: 1
+      critDamageBuff: 0
+      attackSpeedBuff: 0
+      movementSpeedBuff: 0
+      skillDamageBuff: 0
+  playerPassiveSkillData:
+  - skillName: "\uB9F9\uB82C\uD55C \uC77C\uACA9"
+    rarity: 2
+    description: "\uACF5\uACA9 \uC18D\uB3C4\uAC00 n% \uB9CC\uD07C \uC99D\uAC00\uD55C\uB2E4."
+    skillType: 2
+    iconIndex: 0
+    isOwned: 0
+    quantity: 0
+    levelFrom0: 0
+    baseStatus:
+      target: 7
+      buff: 5
+  - skillName: "\uBA85\uC0C1"
+    rarity: 2
+    description: "\uB9C8\uB098 \uC7AC\uC0DD\uC18D\uB3C4\uAC00 n% \uB9CC\uD07C \uC99D\uAC00\uD55C\uB2E4."
+    skillType: 2
+    iconIndex: 0
+    isOwned: 0
+    quantity: 0
+    levelFrom0: 0
+    baseStatus:
+      target: 4
+      buff: 5
+  - skillName: "\uD658\uAE30\uC758 \uD798"
+    rarity: 1
+    description: "\uCCB4\uB825\uC774 n% \uB9CC\uD07C \uC99D\uAC00\uD55C\uB2E4."
+    skillType: 2
+    iconIndex: 0
+    isOwned: 0
+    quantity: 0
+    levelFrom0: 0
+    baseStatus:
+      target: 1
+      buff: 5
+  - skillName: "\uAC80\uC220 \uC5F0\uB9C8"
+    rarity: 1
+    description: "\uAE30\uBCF8 \uACF5\uACA9 \uD53C\uD574\uB7C9\uC774 n% \uB9CC\uD07C
+      \uC99D\uAC00\uD55C\uB2E4."
+    skillType: 2
+    iconIndex: 0
+    isOwned: 0
+    quantity: 0
+    levelFrom0: 0
+    baseStatus:
+      target: 0
+      buff: 5
+  - skillName: "\uAC80\uC758 \uBCF4\uD638\uB9C9"
+    rarity: 0
+    description: "\uBC1B\uB294 \uD53C\uD574\uB7C9\uC774 n% \uB9CC\uD07C \uAC10\uC18C\uD55C\uB2E4."
+    skillType: 2
+    iconIndex: 0
+    isOwned: 0
+    quantity: 0
+    levelFrom0: 0
+    baseStatus:
+      target: 2
+      buff: 5
+  - skillName: "\uAD11\uD3ED\uD654"
+    rarity: 0
+    description: "\uC2A4\uD0AC \uD53C\uD574\uB7C9\uC774 n% \uB9CC\uD07C \uC99D\uAC00\uD55C\uB2E4."
+    skillType: 2
+    iconIndex: 0
+    isOwned: 0
+    quantity: 0
+    levelFrom0: 0
+    baseStatus:
+      target: 9
+      buff: 5

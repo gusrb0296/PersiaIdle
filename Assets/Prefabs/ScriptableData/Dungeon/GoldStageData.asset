@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4c5251a6a92740c3b37a56921f3f598, type: 3}
+  m_Name: GoldStageData
+  m_EditorClassIdentifier: 
+  stageName: "\uACE8\uB4DC \uB358\uC804"
+  goalKillCount: 100
+  bossTimeLimit: 60
+  maxSpawn: 100
+  mapPrefab: {fileID: 2970296085479361302, guid: b52f1d986b62c429eb57e1bcb2574252, type: 3}
+  bossName: 
+  bossDescription: 
+  bossMonsterLevel: 0
+  bossMonsterBaseStatus:
+    baseAttack: 0
+    baseHealth: 0
+    baseDamageReduction: 0
+    baseMana: 0
+    baseManaRecovery: 0
+    baseCritChance: 0
+    baseCritDamage: 0
+    baseAttackSpeed: 0
+    baseMovementSpeed: 0
+  bossMonsterPerLevel:
+    baseAttack: 0
+    baseHealth: 0
+    baseDamageReduction: 0
+    baseMana: 0
+    baseManaRecovery: 0
+    baseCritChance: 0
+    baseCritDamage: 0
+    baseAttackSpeed: 0
+    baseMovementSpeed: 0
+  bossMonsterPrefab: {fileID: 0}
+  bossMonsterReward: []
+  bossSpawnPosition: {x: 0, y: 0, z: 0}
+  basicMonstersLevel: 01000000
+  basicMonstersBaseStatus:
+  - baseAttack: 50
+    baseHealth: 1000
+    baseDamageReduction: 0
+    baseMana: 0
+    baseManaRecovery: 0
+    baseCritChance: 0
+    baseCritDamage: 0
+    baseAttackSpeed: 1
+    baseMovementSpeed: 1
+  basicMonstersPerLevel:
+  - baseAttack: 100
+    baseHealth: 2000
+    baseDamageReduction: 0
+    baseMana: 0
+    baseManaRecovery: 0
+    baseCritChance: 0
+    baseCritDamage: 0
+    baseAttackSpeed: 0
+    baseMovementSpeed: 0
+  basicMonstersPrefab:
+  - {fileID: 895882937534166085, guid: 2c1b14282c7e744c0af6feada313024b, type: 3}
+  basicMonstersReward: []
+  basicMonsterSpawnPosition:
+  - {x: -3.88, y: 0.52, z: 0}
+  - {x: 0.46, y: -1.5, z: 0}
+  - {x: 3.02, y: -1.39, z: 0}
+  - {x: 5.43, y: -1.5, z: 0}
+  - {x: 5.43, y: 0.22, z: 0}
+  - {x: 3.59, y: 0.59, z: 0}
+  - {x: -0.55, y: 0.73, z: 0}
+  - {x: -3.73, y: -0.69, z: 0}

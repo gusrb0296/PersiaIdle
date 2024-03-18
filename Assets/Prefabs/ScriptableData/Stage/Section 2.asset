@@ -1,0 +1,104 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4c5251a6a92740c3b37a56921f3f598, type: 3}
+  m_Name: Section 2
+  m_EditorClassIdentifier: 
+  stageName: "\uB9C8\uBC95\uC758 \uC624\uC544\uC2DC\uC2A4"
+  goalKillCount: 30
+  bossTimeLimit: 30
+  maxSpawn: 10
+  mapPrefab: {fileID: 6468416041720651596, guid: 7e93d00a324364674a0cbeed022e64dd, type: 3}
+  bossName: "\uCF00\uB974\uBCA0\uB85C\uC2A4"
+  bossDescription: "\uC9C0\uC625\uC758 \uD30C\uC218\uACAC"
+  bossMonsterBaseStatus:
+    baseAttack: 100
+    baseHealth: 13000
+    baseDamageReduction: 0
+    baseMana: 0
+    baseManaRecovery: 0
+    baseCritChance: 0
+    baseCritDamage: 0
+    baseAttackSpeed: 1
+    baseMovementSpeed: 1
+  bossMonsterPerLevel:
+    baseAttack: 50
+    baseHealth: 3000
+    baseDamageReduction: 0
+    baseMana: 0
+    baseManaRecovery: 0
+    baseCritChance: 0
+    baseCritDamage: 0
+    baseAttackSpeed: 0
+    baseMovementSpeed: 0
+  bossMonsterPrefab: {fileID: 2840300716045801684, guid: 2619fdfcbbc4b4123b953fc255584fe0, type: 3}
+  bossMonsterReward:
+  - <rewardType>k__BackingField: 1
+    <baseRewardAmount>k__BackingField: 2000
+    <increasePerLevel>k__BackingField: 0
+    <level>k__BackingField: 0
+  - <rewardType>k__BackingField: 9
+    <baseRewardAmount>k__BackingField: 1000
+    <increasePerLevel>k__BackingField: 1000
+    <level>k__BackingField: 0
+  bossSpawnPosition: {x: 0, y: 1, z: 0}
+  number20BossBonusStatus:
+    baseAttack: 0
+    baseHealth: 0
+    baseDamageReduction: 0
+    baseMana: 0
+    baseManaRecovery: 0
+    baseCritChance: 0
+    baseCritDamage: 0
+    baseAttackSpeed: 0
+    baseMovementSpeed: 0
+  basicMonstersBaseStatus:
+  - baseAttack: 20
+    baseHealth: 500
+    baseDamageReduction: 0
+    baseMana: 0
+    baseManaRecovery: 0
+    baseCritChance: 0
+    baseCritDamage: 0
+    baseAttackSpeed: 1
+    baseMovementSpeed: 1
+  basicMonstersPerLevel:
+  - baseAttack: 5
+    baseHealth: 400
+    baseDamageReduction: 0
+    baseMana: 0
+    baseManaRecovery: 0
+    baseCritChance: 0
+    baseCritDamage: 0
+    baseAttackSpeed: 0
+    baseMovementSpeed: 0
+  basicMonstersPrefab:
+  - {fileID: 2840300716045801684, guid: 3f7ded1604d8d43f6bc39da8155bd384, type: 3}
+  basicMonstersReward:
+  - <rewardType>k__BackingField: 9
+    <baseRewardAmount>k__BackingField: 10
+    <increasePerLevel>k__BackingField: 10
+    <level>k__BackingField: 0
+  - <rewardType>k__BackingField: 0
+    <baseRewardAmount>k__BackingField: 100
+    <increasePerLevel>k__BackingField: 100
+    <level>k__BackingField: 0
+  basicMonsterSpawnPosition:
+  - {x: -2.05, y: 2.85, z: 0}
+  - {x: -2.24, y: -0.23, z: 0}
+  - {x: -2.09, y: -4.43, z: 0}
+  - {x: -0.37, y: -4.47, z: 0}
+  - {x: 2.5, y: -3.7, z: 0}
+  - {x: 2.6, y: -1.7, z: 0}
+  - {x: 2.5, y: 1.8, z: 0}
+  - {x: 2.5, y: 3, z: 0}
+  - {x: 1.8, y: 3.4, z: 0}
+  - {x: 0, y: 3.4, z: 0}

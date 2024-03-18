@@ -1,0 +1,126 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7982970447294033394
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5232404673164727960}
+  - component: {fileID: 2147154330355696007}
+  m_Layer: 0
+  m_Name: SummonManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5232404673164727960
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7982970447294033394}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2147154330355696007
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7982970447294033394}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45d1ebed2cb144511b2794b3587e82c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  <diamondCostPerEquipSummon>k__BackingField: 30
+  <diamondCostPerSkillSummon>k__BackingField: 100
+  <SummonCountPerLevel>k__BackingField: 64000000c8000000900100005802000020030000e8030000dc050000d0070000c4090000b80b0000
+  shakeProbability: 0.1
+  shakePower: 6
+  shakeVibrato: 16
+  <weaponGachaPerLevel>k__BackingField:
+  - {fileID: 11400000, guid: 528db8931dac34f2f8e4f000ad1b71ce, type: 2}
+  - {fileID: 11400000, guid: 3e6fed0109d29407cbeef3bd76e225a8, type: 2}
+  - {fileID: 11400000, guid: fed105a1fd3eb458092d09dc9895e870, type: 2}
+  - {fileID: 11400000, guid: 5d0a404d258bd43afad42b98143fa21f, type: 2}
+  - {fileID: 11400000, guid: 449729928f0e94d428a4a09dee882004, type: 2}
+  - {fileID: 11400000, guid: 58003fef7d5ba4e91ba5ce6f3c334456, type: 2}
+  - {fileID: 11400000, guid: 2a5ab5632c7594f9ab303df3f2bf8894, type: 2}
+  - {fileID: 11400000, guid: 71a0c1cb95816416ea3878e84379d039, type: 2}
+  - {fileID: 11400000, guid: dffcd640e810c41e19a1547fcca13a7e, type: 2}
+  - {fileID: 11400000, guid: 80038c71285f7480fab02f2285c3279f, type: 2}
+  weaponReward:
+  - type: 1
+    amount: 1000
+  - type: 1
+    amount: 2000
+  - type: 1
+    amount: 3000
+  - type: 1
+    amount: 4000
+  - type: 1
+    amount: 5000
+  - type: 1
+    amount: 6000
+  - type: 1
+    amount: 7000
+  - type: 1
+    amount: 8000
+  - type: 1
+    amount: 9000
+  - type: 1
+    amount: 10000
+  weaponSummonLevel: 0
+  weaponSummonCount: 0
+  <armorGachaPerLevel>k__BackingField:
+  - {fileID: 11400000, guid: 528db8931dac34f2f8e4f000ad1b71ce, type: 2}
+  - {fileID: 11400000, guid: 3e6fed0109d29407cbeef3bd76e225a8, type: 2}
+  - {fileID: 11400000, guid: fed105a1fd3eb458092d09dc9895e870, type: 2}
+  - {fileID: 11400000, guid: 5d0a404d258bd43afad42b98143fa21f, type: 2}
+  - {fileID: 11400000, guid: 449729928f0e94d428a4a09dee882004, type: 2}
+  - {fileID: 11400000, guid: 58003fef7d5ba4e91ba5ce6f3c334456, type: 2}
+  - {fileID: 11400000, guid: 2a5ab5632c7594f9ab303df3f2bf8894, type: 2}
+  - {fileID: 11400000, guid: 71a0c1cb95816416ea3878e84379d039, type: 2}
+  - {fileID: 11400000, guid: dffcd640e810c41e19a1547fcca13a7e, type: 2}
+  - {fileID: 11400000, guid: 80038c71285f7480fab02f2285c3279f, type: 2}
+  armorReward:
+  - type: 1
+    amount: 1000
+  - type: 1
+    amount: 2000
+  - type: 1
+    amount: 3000
+  - type: 1
+    amount: 4000
+  - type: 1
+    amount: 5000
+  - type: 1
+    amount: 6000
+  - type: 1
+    amount: 7000
+  - type: 1
+    amount: 8000
+  - type: 1
+    amount: 9000
+  - type: 1
+    amount: 10000
+  armorSummonLevel: 0
+  armorSummonCount: 0
+  <skillGacha>k__BackingField: {fileID: 11400000, guid: 0321d4967dbbc45c2891ed8d4a798f2c, type: 2}
+  skillReward:
+    type: 1
+    amount: 3000
+  skillSummonLevel: 0
+  skillSummonCount: 0
