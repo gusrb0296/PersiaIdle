@@ -46,8 +46,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerActiveSkillPrefabs:
   - {fileID: 8371061536800332358, guid: 7dddb2c4f81044632ba51636fa438ef6, type: 3}
-  - {fileID: 6063684999384733500, guid: e9048933c57f54b27ad39fd9a7a519bb, type: 3}
+  - {fileID: 3005680015718790906, guid: 52d43e21e66304c7eb978fdf76f03498, type: 3}
   - {fileID: 3005680015718790906, guid: 05422375934f745919542ceecb47c610, type: 3}
+  - {fileID: 8371061536800332358, guid: 7dff6ee54250940bdbad45f0fa423bb6, type: 3}
+  - {fileID: 8371061536800332358, guid: 465315363c9124313b46ee05c3599016, type: 3}
+  - {fileID: 8371061536800332358, guid: 236e1c8d44c974534bb974a4d28fa5d3, type: 3}
+  - {fileID: 8371061536800332358, guid: fe72e901841b84dc7ab682381fd92c7c, type: 3}
   activeSkillFixedInfos:
   - {fileID: 11400000, guid: 6fd841f8e0dca4123832f55dd75fa70f, type: 2}
   - {fileID: 11400000, guid: 3cee0ec918b834b3bbbf3b640fca5c14, type: 2}
@@ -56,17 +60,17 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 58ce0c706f1b549a196d0e4e7712bfba, type: 2}
   - {fileID: 11400000, guid: 935a42515f34e46879491e4b7b98cb1a, type: 2}
   - {fileID: 11400000, guid: 99ea2100b1f3244c69df030c767d326d, type: 2}
-  buffSkillFixedInfos: []
+  buffSkillFixedInfos:
+  - {fileID: 11400000, guid: ffef70993311148dc83594b45a17ec8c, type: 2}
+  - {fileID: 11400000, guid: 80fc42f6723bb466599e2507699ee41d, type: 2}
+  - {fileID: 11400000, guid: 396ac0d09b0f4474ea260b30616cbd46, type: 2}
   passiveSkillFixedInfos:
-  - {fileID: 11400000, guid: 3dbd5fa3e34ea43d5900e56c49859337, type: 2}
-  - {fileID: 11400000, guid: 31926580acd8f409895d44a5bf9e1c17, type: 2}
-  - {fileID: 11400000, guid: 39971ec4e49034a56abb0df379e96c41, type: 2}
-  - {fileID: 11400000, guid: b1747cdc9a4144b0c9acf333022cd988, type: 2}
-  - {fileID: 0}
-  - {fileID: 11400000, guid: 41213fccb91644f23986f58df583ae7a, type: 2}
-  - {fileID: 11400000, guid: de6cd2d5418194059aba5a2a63facb98, type: 2}
-  - {fileID: 0}
-  - {fileID: 11400000, guid: 8d5de4333209641c38611c6e1f74a2af, type: 2}
+  - {fileID: 11400000, guid: 9f9598a2169f544dfbcca7bf0abf294d, type: 2}
+  - {fileID: 11400000, guid: 9cee0b4e9b7da4b33be3ea0ecc229210, type: 2}
+  - {fileID: 11400000, guid: 22c77e8e369af4ffa94ae23e4c235526, type: 2}
+  - {fileID: 11400000, guid: ce2637faf19cb4ef4b1e299a8404dc32, type: 2}
+  - {fileID: 11400000, guid: 8cc08e7bad1b643dda03bc59eb614d22, type: 2}
+  - {fileID: 11400000, guid: 3059c007f144a4e7da19f4d3f3cc940f, type: 2}
   skillIcon:
   - {fileID: 21300000, guid: af7d26f17ceab433d9a714e2c716bb0b, type: 3}
   - {fileID: 21300000, guid: 99bd3e6bb2e274cffba0fcd47f4c424a, type: 3}
@@ -116,7 +120,7 @@ MonoBehaviour:
       attackSpeedBuff: 0
       movementSpeedBuff: 0
       skillDamageBuff: 0
-  playerSpecialActiveSkillInfo: {fileID: 0}
+  playerSpecialActiveSkillInfo: {fileID: 11400000, guid: bf5d67d37b84441859233f7ddb29e288, type: 2}
   playerActiveSkillDatas:
   - skillName: "\uCC9C\uAC80 \uAC15\uB9BC"
     rarity: 3
