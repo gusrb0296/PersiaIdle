@@ -72,22 +72,22 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 8cc08e7bad1b643dda03bc59eb614d22, type: 2}
   - {fileID: 11400000, guid: 3059c007f144a4e7da19f4d3f3cc940f, type: 2}
   skillIcon:
-  - {fileID: 21300000, guid: 83ff26a401357404da77f10f8eb424bc, type: 3}
-  - {fileID: 21300000, guid: c18e25f02c6c045b28cf50155a31e314, type: 3}
-  - {fileID: 21300000, guid: f533d8c97620f405585ed5a644cd732e, type: 3}
-  - {fileID: 21300000, guid: cb25d0367add144aa9174fc422a1c980, type: 3}
-  - {fileID: 21300000, guid: 1d507c49da8a1466a9ccc8e602fc9308, type: 3}
-  - {fileID: 21300000, guid: 35a28da01104e4363b305021b0001986, type: 3}
-  - {fileID: 21300000, guid: e7cc90ab89b2f47d6a5245254a60d5a1, type: 3}
-  - {fileID: 21300000, guid: 6a64208a2b8ee448a98b7b338fdc391d, type: 3}
-  - {fileID: 21300000, guid: 2e909c0dfd5cd4563bdd4cb89824b72b, type: 3}
-  - {fileID: 21300000, guid: b6db0dd2bcb0e46bc8cb5c0869de211c, type: 3}
-  - {fileID: 21300000, guid: 2e2eef0797b324e3ebbabfba86273efb, type: 3}
-  - {fileID: 21300000, guid: 009213307443d4aacb8866f172defd06, type: 3}
-  - {fileID: 21300000, guid: 3fa1f52b445184ebdae1acf2558f6e71, type: 3}
-  - {fileID: 21300000, guid: 04343c1516f6940d78f11d55684dd952, type: 3}
-  - {fileID: 21300000, guid: c39ecf91856754066960253cef723e65, type: 3}
-  - {fileID: 21300000, guid: 9104d3c0ba46a45c39d4acbdf33aec4d, type: 3}
+  - {fileID: 21300000, guid: af7d26f17ceab433d9a714e2c716bb0b, type: 3}
+  - {fileID: 21300000, guid: 99bd3e6bb2e274cffba0fcd47f4c424a, type: 3}
+  - {fileID: 21300000, guid: 0e964403b18bb4c26877aedb9582f965, type: 3}
+  - {fileID: 21300000, guid: 99f513f400c4f4fe0baa12deecf3cd32, type: 3}
+  - {fileID: 21300000, guid: d2b1adad81d284f94918304025a6c3e5, type: 3}
+  - {fileID: 21300000, guid: 39bc286dd7f5c4143ba46f7ce4b1e0b7, type: 3}
+  - {fileID: 21300000, guid: c43874c7814f34c4da93324c34b28e5d, type: 3}
+  - {fileID: 21300000, guid: 0893c4cc46a85414f880aae366eb1693, type: 3}
+  - {fileID: 21300000, guid: 4451d93a3a8f245fba8056e84e4b0d32, type: 3}
+  - {fileID: 21300000, guid: d62c3069a02744249a33c91554b0a959, type: 3}
+  - {fileID: 21300000, guid: c919e1b8570474a4aab30859eaecd9c7, type: 3}
+  - {fileID: 21300000, guid: dce95c77bab024a319078f941e3045be, type: 3}
+  - {fileID: 21300000, guid: 8584acba4c67044f0ac6dd586448c233, type: 3}
+  - {fileID: 21300000, guid: 0a36f741f2a4f48f3a39a0ecd0f1b504, type: 3}
+  - {fileID: 21300000, guid: de72d6f81f01d4b23b28418deece9792, type: 3}
+  - {fileID: 21300000, guid: 5ee8a913fa6cf45a29758f173e8d6379, type: 3}
   - {fileID: 21300000, guid: c363b45ab3dd1476f9f674a3dd965067, type: 3}
   playerSpecialSkillData:
     skillName: "\uD2B9\uC218\uAE30"
@@ -296,6 +296,7 @@ MonoBehaviour:
       attackSpeedBuff: 0.1
       movementSpeedBuff: 0.1
       skillDamageBuff: 10
+    shakeTime: []
   - skillName: "\uBC18\uACA9\uC758 \uAC80"
     rarity: 3
     description: "15\uCD08\uAC04 \uCE58\uBA85\uD0C0 \uB300\uBBF8\uC9C0\uAC00 n% \uC0C1\uC2B9\uD55C\uB2E4."
@@ -322,6 +323,7 @@ MonoBehaviour:
       attackSpeedBuff: 0
       movementSpeedBuff: 0
       skillDamageBuff: 0
+    shakeTime: []
   - skillName: "\uAE09\uC18C \uD0C0\uACA9"
     rarity: 3
     description: "15\uCD08\uAC04 \uCE58\uBA85\uD0C0 \uD655\uB960\uC774 n% \uC0C1\uC2B9\uD55C\uB2E4."
@@ -348,6 +350,7 @@ MonoBehaviour:
       attackSpeedBuff: 0
       movementSpeedBuff: 0
       skillDamageBuff: 0
+    shakeTime: []
   playerPassiveSkillData:
   - skillName: "\uB9F9\uB82C\uD55C \uC77C\uACA9"
     rarity: 2
