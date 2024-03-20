@@ -18,6 +18,6 @@ MonoBehaviour:
   upgradePerLevelInt: 200
   upgradePerLevelFloat: 0
   currencyType: 0
-  baseCost: 5
-  increaseCostPerLevel: 100
+  baseCost: 100
+  increaseCostPerLevel: 5
   image: {fileID: 21300000, guid: 003316dda37dc48a5ab2d2a23506781e, type: 3}
