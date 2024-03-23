@@ -76,3 +76,12 @@ MonoBehaviour:
     info: {fileID: 11400000, guid: 1564e1e462c8b47fb9e4dec7f282df76, type: 2}
   - level: 0
     info: {fileID: 11400000, guid: eef363001684d42149cfc210e2dd7af6, type: 2}
+  <abilityUpgradeInfo>k__BackingField:
+  - title: 
+    info: {fileID: 0}
+  - title: 
+    info: {fileID: 0}
+  - title: 
+    info: {fileID: 0}
+  - title: 
+    info: {fileID: 0}

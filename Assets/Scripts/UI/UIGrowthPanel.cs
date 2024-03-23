@@ -1,4 +1,3 @@
-using System;
 using Defines;
 using UnityEngine;
 using UnityEngine.UI;
@@ -24,12 +23,13 @@ public class UIGrowthPanel : UIPanel
     [SerializeField] private GameObject[] awakenUis;
     [SerializeField] private RectTransform awakenRoot;
 
-    // 미정
-    // [SerializeField] private 미정 무언가Prefab;
-    // private ObjectPool<미정> 무언가Pool;
-    // private LinkedList<미정> 무언가OpenedUI;
-    // [SerializeField] private GameObject[] 무언가UIs;
-    // [SerializeField] private RectTransform 무언가Root;
+    // 어빌리티 => 일단 던전 재화로 올릴 수 있게 함
+    // [SerializeField] private abilityPrefab;
+    // private ObjectPool<미정> abilityPool;
+    // private LinkedList<미정> abilityOpenedUI;
+    // [SerializeField] private GameObject[] abilityUIs;
+    // [SerializeField] private RectTransform abilityRoot;
+
     [Header("Currency")]
     public UICurrencyUpdater currencyUI;
     private ETrainingType currentTab;

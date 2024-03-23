@@ -27,4 +27,3 @@ public class StatUpgradeFixedInfo : ScriptableObject
     // 꾸미기 관련
     public Sprite image;
 }
-

@@ -1,4 +1,4 @@
-using System;
+    using System;
 using System.Collections;
 using System.Collections.Generic;
 using Defines;
@@ -39,6 +39,8 @@ public class UpgradeManager : MonoBehaviour
     [field: SerializeField] public StatUpgradeInfo[] statUpgradeInfo { get; protected set; }
 
     [field: SerializeField] public AwakenUpgradeInfo[] awakenUpgradeInfo { get; protected set; }
+
+    [field: SerializeField] public AbilityUpgradeInfo[] abilityUpgradeInfo { get; protected set; }
 
     // [field: SerializeField] public SpecialityUpgradeInfo[] specialityUpgradeInfo { get; protected set; }
     // [field: SerializeField] public RelicUpgradeInfo[] relicUpgradeInfo { get; protected set; }
@@ -330,6 +332,44 @@ public class StatUpgradeInfo
             return false;
         return true;
     }
+
+    public void Init()
+    {
+        level = 0;
+        cost = baseCost;
+    }
+}
+
+[Serializable]
+public class AbilityUpgradeInfo
+{
+    public int level;
+
+    [SerializeField] private AbilityUpgradeFixedInfo info;
+
+    public string title => info.title;
+
+    // 업글 관련
+    public EStatusType statusType => info.statusType;
+
+    // 비용 관련
+    public ECurrencyType currencyType => info.currencyType;
+    public int baseCost => info.baseCost;
+
+    public int cost;
+
+    public void Save()
+    {
+        DataManager.Instance.Save($"{nameof(AbilityUpgradeInfo)}_{statusType.ToString()}_{nameof(level)}", level);
+        DataManager.Instance.Save($"{nameof(AbilityUpgradeInfo)}_{statusType.ToString()}_{nameof(cost)}", cost.ToString());
+    }
+
+    //public void Load()
+    //{
+    //    level = DataManager.Instance.Load($"{nameof(StatUpgradeInfo)}_{statusType.ToString()}_{nameof(level)}", level);
+    //    cost = new BigInteger(DataManager.Instance.Load<string>(
+    //        $"{nameof(StatUpgradeInfo)}_{statusType.ToString()}_{nameof(cost)}", baseCost.ToString()));
+    //}
 
     public void Init()
     {
