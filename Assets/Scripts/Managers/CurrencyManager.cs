@@ -56,10 +56,11 @@ public class CurrencyManager : MonoBehaviour
             SaveCurrencies();
             LoadCurrencies();
         }
-        
+
         foreach (var currency in currencies)
         {
-            currencyDictionary.Add(currency.type, currency);
+            if(!currencyDictionary.ContainsKey(currency.type))
+                currencyDictionary.Add(currency.type, currency);
         }
         
         UIManager.instance.TryGetUI<UICurrencyUpdater>().ShowUI();
