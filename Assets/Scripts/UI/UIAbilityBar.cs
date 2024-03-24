@@ -9,8 +9,8 @@ public class UIAbilityBar : UIBase
     [SerializeField] private HoldCheckerButton upgradeBtn;
 
     [SerializeField] private TMP_Text levelText;
-    [SerializeField] private TMP_Text titleText;
-    [SerializeField] private TMP_Text costText;
+    [SerializeField] private TMP_Text abilityGradeText;
+    [SerializeField] private TMP_Text abilityNameText;
 
 
 }

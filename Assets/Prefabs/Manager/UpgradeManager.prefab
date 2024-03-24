@@ -77,11 +77,7 @@ MonoBehaviour:
   - level: 0
     info: {fileID: 11400000, guid: eef363001684d42149cfc210e2dd7af6, type: 2}
   <abilityUpgradeInfo>k__BackingField:
-  - title: 
-    info: {fileID: 0}
-  - title: 
-    info: {fileID: 0}
-  - title: 
-    info: {fileID: 0}
-  - title: 
-    info: {fileID: 0}
+  - info: {fileID: 11400000, guid: c2692ae726dd7d44c99aa843f4f89e33, type: 2}
+  - info: {fileID: 11400000, guid: d2178aef88fa1a4459a42697024819db, type: 2}
+  - info: {fileID: 11400000, guid: 38bee2e1e472cf64f90ac37ea9ea5a92, type: 2}
+  - info: {fileID: 11400000, guid: 2bf61b3754d73a345b186e7766c39ad7, type: 2}

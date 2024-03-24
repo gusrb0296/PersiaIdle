@@ -343,8 +343,6 @@ public class StatUpgradeInfo
 [Serializable]
 public class AbilityUpgradeInfo
 {
-    public int level;
-
     [SerializeField] private AbilityUpgradeFixedInfo info;
 
     public string title => info.title;
@@ -356,13 +354,6 @@ public class AbilityUpgradeInfo
     public ECurrencyType currencyType => info.currencyType;
     public int baseCost => info.baseCost;
 
-    public int cost;
-
-    public void Save()
-    {
-        DataManager.Instance.Save($"{nameof(AbilityUpgradeInfo)}_{statusType.ToString()}_{nameof(level)}", level);
-        DataManager.Instance.Save($"{nameof(AbilityUpgradeInfo)}_{statusType.ToString()}_{nameof(cost)}", cost.ToString());
-    }
 
     //public void Load()
     //{
@@ -370,10 +361,4 @@ public class AbilityUpgradeInfo
     //    cost = new BigInteger(DataManager.Instance.Load<string>(
     //        $"{nameof(StatUpgradeInfo)}_{statusType.ToString()}_{nameof(cost)}", baseCost.ToString()));
     //}
-
-    public void Init()
-    {
-        level = 0;
-        cost = baseCost;
-    }
 }

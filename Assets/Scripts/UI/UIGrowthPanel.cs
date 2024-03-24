@@ -24,11 +24,11 @@ public class UIGrowthPanel : UIPanel
     [SerializeField] private RectTransform awakenRoot;
 
     // 어빌리티 => 일단 던전 재화로 올릴 수 있게 함
-    // [SerializeField] private abilityPrefab;
-    // private ObjectPool<미정> abilityPool;
-    // private LinkedList<미정> abilityOpenedUI;
-    // [SerializeField] private GameObject[] abilityUIs;
-    // [SerializeField] private RectTransform abilityRoot;
+    [Header("어빌리티")] [SerializeField] private UIAbilityBar abilityPrefab;
+    private CustomPool<UIAbilityBar> abilityPool;
+    [SerializeField] int abilityPoolSize;
+    [SerializeField] private GameObject[] abilityUIs;
+    [SerializeField] private RectTransform abilityRoot;
 
     [Header("Currency")]
     public UICurrencyUpdater currencyUI;
@@ -57,6 +57,11 @@ public class UIGrowthPanel : UIPanel
             x => x.actOnCallback += () => awakenPool.Release(x),
             x => x.transform.SetAsLastSibling(),
             null, awakenPoolSize, true);
+
+        abilityPool = EasyUIPooling.MakePool(abilityPrefab, abilityRoot,
+            x => x.actOnCallback += () => abilityPool.Release(x),
+            x => x.transform.SetAsLastSibling(),
+            null, abilityPoolSize, true);
 
         currencyUI.InitUI(this);
         return this;

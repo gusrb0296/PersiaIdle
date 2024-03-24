@@ -1029,6 +1029,10 @@ MonoBehaviour:
   awakenPoolSize: 0
   awakenUis: []
   awakenRoot: {fileID: 6436850564346493747}
+  abilityPrefab: {fileID: 6587954397014039030, guid: 4cb3b9b9dd1f94e1a962983709230155, type: 3}
+  abilityBarPoolSize: 0
+  abilityUIs: []
+  abilityRoot: {fileID: 6436850564346493747}
   currencyUI: {fileID: 2220845470936733661}
   questGuide: {fileID: 1929708703255884534}
   attackQuestRoot: {fileID: 0}

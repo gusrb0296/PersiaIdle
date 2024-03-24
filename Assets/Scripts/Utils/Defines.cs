@@ -123,6 +123,15 @@ namespace Defines
         SKILL_DMG, // 스킬 증폭
     }
 
+    public enum EAbilityType
+    {
+        C,
+        B,
+        A,
+        S,
+        SS
+    }
+
     public enum ETrainingType
     {
         Normal,
