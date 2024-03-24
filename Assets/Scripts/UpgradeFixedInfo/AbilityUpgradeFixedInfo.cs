@@ -13,5 +13,5 @@ public class AbilityUpgradeFixedInfo : ScriptableObject
     public EAbilityType abilityType;
 
     public ECurrencyType currencyType;
-    public int baseCost;
+    public int cost;
 }

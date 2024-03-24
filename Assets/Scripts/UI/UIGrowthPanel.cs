@@ -27,7 +27,7 @@ public class UIGrowthPanel : UIPanel
     [Header("어빌리티")] [SerializeField] private UIAbilityBar abilityPrefab;
     private CustomPool<UIAbilityBar> abilityPool;
     [SerializeField] int abilityPoolSize;
-    [SerializeField] private GameObject[] abilityUIs;
+    [SerializeField] private GameObject[] abilityUis;
     [SerializeField] private RectTransform abilityRoot;
 
     [Header("Currency")]
@@ -155,17 +155,17 @@ public class UIGrowthPanel : UIPanel
 
                 ControlUICurrency(ECurrencyType.AwakenStone);
                 break;
-            // case ETrainingType.Speciality:
-            //     foreach (var ui in specialityUis)
-            //     {
-            //         ui.SetActive(true);
-            //     }
-            //     foreach (var item in UpgradeManager.instance.specialityUpgradeInfo)
-            //     {
-            //         var obj = specialityPool.Get();
-            //         obj.ShowUI(item);
-            //     }
-            //     break;
+            case ETrainingType.Ability:
+                foreach (var ui in abilityUis)
+                {
+                    ui.SetActive(true);
+                }
+                foreach (var item in UpgradeManager.instance.abilityUpgradeInfo)
+                {
+                    var obj = abilityPool.Get();
+                    obj.ShowUI(item);
+                }
+                break;
         }
     }
 

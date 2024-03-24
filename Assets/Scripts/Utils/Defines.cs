@@ -136,7 +136,7 @@ namespace Defines
     {
         Normal,
         Awaken,
-        Speciality,
+        Ability,
         Relic,
     }
 

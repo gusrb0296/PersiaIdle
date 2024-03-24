@@ -153,6 +153,15 @@ public class UpgradeManager : MonoBehaviour
         onAwakenUpgrade?.Invoke(info.statusType, info.level);
     }
 
+    public void UpgradeAbilityStatus(AbilityUpgradeInfo info)
+    {
+        var status = PlayerManager.instance.status;
+        var score = new BigInteger(status.BattleScore.ToString());
+
+        // 확률 계산 
+
+    }
+
     public void InitUpgradeManager()
     {
         // TODO Save & Load Upgrade Information
@@ -348,12 +357,11 @@ public class AbilityUpgradeInfo
     public string title => info.title;
 
     // 업글 관련
-    public EStatusType statusType => info.statusType;
+    public EAbilityType abilityType => info.abilityType;
 
     // 비용 관련
     public ECurrencyType currencyType => info.currencyType;
-    public int baseCost => info.baseCost;
-
+    public int cost => info.cost;
 
     //public void Load()
     //{
@@ -361,4 +369,9 @@ public class AbilityUpgradeInfo
     //    cost = new BigInteger(DataManager.Instance.Load<string>(
     //        $"{nameof(StatUpgradeInfo)}_{statusType.ToString()}_{nameof(cost)}", baseCost.ToString()));
     //}
+
+    public bool CheckUpgradeCondition()
+    {
+        return true;
+    }
 }
